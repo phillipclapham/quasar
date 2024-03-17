@@ -4,6 +4,8 @@ v1.00
 
 ConversAIon Catalysts is a meticulously curated collection of custom instructions and prompts designed to significantly enhance interactions with AI across various platforms and instances. At its core, this project aims to elevate the standard AI conversation to a deeply engaging, insightful, and personalized dialogue. Through a unique blend of base instructions that amplifies sophisticated AI behavior and augmented conversation sets tailored for specific interaction types, ConversAIon Catalysts serves as an indispensable toolkit for users seeking to unlock the full potential of AI communication.
 
+More instructions and prompts coming soon.
+
 ## The Basics:
 
 - While the default mode of communications with most LLMs is powerful, both research and simply asking the different AIs reveals that there are several strategies that should be employed to optimize their function.

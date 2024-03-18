@@ -31,7 +31,19 @@ More instructions and prompts coming soon.
 
 ### ChatGPT
 
-- Copy the contents of the file: base instructions/custom-instructions-chatgpt.md into a Markdown editor and update your personal profile.
+- First you need to optimize what ChatGPT knows about you. Copy the template below, paste it into a text editor, and edit the fields with your information.
+
+  Profile:
+
+  Name: [Your Name], from [Your Location].
+  Profession: [Your profession]
+  Interests: [Your Interests]
+  Priority Goals: [Your Immediate Goals]
+  Long Term Goals: [Your Long Term Goals]
+  Preferred Learning Style: [Learning Style]
+  Website: [Your Website - delete line if none]
+  Born: [Your DOB]
+
 - Paste your updated personal profile into your Customize ChatGPT Settings (in your ChatGPT settings) in the 'What would you like ChatGPT to know about you to provide better responses?' box. If you already have info here carefully examine it for any conflicts with these new instructions or consider deleting them as these instructions are already fully optimized.
 - Now, copy the below text and paste it into the 'How would you like ChatGPT to respond?' box:
 

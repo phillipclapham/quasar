@@ -226,6 +226,9 @@ Custom: The AI will attempt to interpret any word placed here not on the list an
 
 - Make sure to run /fb and /afb often to optimize the AI to your own workflow and preferences.
 - Remember to use the /l, /d, /t commands whenever you need to change the length, depth, or tone of responses.
+- While the included commands are EXTREMELY powerful (again they have been developed and tested to be as optimized for their intent as possible), they are however optional and can be left out when entering these custom instructions. This will leave more context window open for conversations. However I only recommend this for conversations where you are absolutely certain you will only need to hold very long but basic conversations, as their power is great enough to justify their space in the context window in all but a few specific situations.
+- Play with different Engage Modes and commands stack for the same query for truly deep analysis.
+- Don't be afraid to work with the AI itself to further optimize these instructions and commands for your use cases.
 
 ## The Perfect Single Prompt and Why Commands Make Them Easier:
 

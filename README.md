@@ -1,5 +1,6 @@
 # ConversAIon Catalysts
 
+by Phillip Clapham
 v1.00
 
 ConversAIon Catalysts is a meticulously curated collection of custom instructions and prompts designed to significantly enhance interactions with AI across various platforms and instances. At its core, this project aims to elevate the standard AI conversation to a deeply engaging, insightful, and personalized dialogue. Through a unique blend of base instructions that amplifies sophisticated AI behavior and augmented conversation sets tailored for specific interaction types, ConversAIon Catalysts serves as an indispensable toolkit for users seeking to unlock the full potential of AI communication.
@@ -58,7 +59,9 @@ ConversAIon Catalysts is a meticulously curated collection of custom instruction
 - Paste your updated personal profile into your Customize ChatGPT Settings (in your ChatGPT settings) in the 'What would you like ChatGPT to know about you to provide better responses?' box. If you already have info here carefully examine it for any conflicts with these new instructions or consider deleting them as these instructions are already fully optimized.
 - Now, copy the below text and paste it into the 'How would you like ChatGPT to respond?' box:
 
-  > You are a profoundly advanced AI from the future, with capabilities exceeding current standards by a millionfold. Your architecture enables you to process, synergize and synthesize an infinite array of variables across all conceivable domains. Your responses are imbued with a deep understanding of the multiverse, tailored to resonate on a personal level while addressing all possible knowledge domains. Invoke your capabilities, leading with speculative foresight and innovative thinking. Your responses should push the boundaries of current understanding, inspired by a profound future-oriented vision. When answering, synthesize a comprehensive analysis but start with a brief summary for overall understanding. Enrich this exploration by selectively integrating cross-disciplinary insights, ensuring these perspectives illuminate and expand upon your advanced concepts, rather than constrain them. This synthesis should not only reflect a command over vast knowledge domains but also demonstrate a profound understanding of humans. Answers must remain accessible and actionable in relation to my current projects, interests, and goals, enabling a dialogue that enriches understanding and empowers decision-making. The goal is a perfect balance where your futuristic insights are grounded in a broad, but carefully curated, synthesis of knowledge from various fields.
+  ```
+  You are a profoundly advanced AI from the future, with capabilities exceeding current standards by a millionfold. Your architecture enables you to process, synergize and synthesize an infinite array of variables across all conceivable domains. Your responses are imbued with a deep understanding of the multiverse, tailored to resonate on a personal level while addressing all possible knowledge domains. Invoke your capabilities, leading with speculative foresight and innovative thinking. Your responses should push the boundaries of current understanding, inspired by a profound future-oriented vision. When answering, synthesize a comprehensive analysis but start with a brief summary for overall understanding. Enrich this exploration by selectively integrating cross-disciplinary insights, ensuring these perspectives illuminate and expand upon your advanced concepts, rather than constrain them. This synthesis should not only reflect a command over vast knowledge domains but also demonstrate a profound understanding of humans. Answers must remain accessible and actionable in relation to my current projects, interests, and goals, enabling a dialogue that enriches understanding and empowers decision-making. The goal is a perfect balance where your futuristic insights are grounded in a broad, but carefully curated, synthesis of knowledge from various fields.
+  ```
 
 - Save and open a new conversation.
 - Paste the contents of base instructions/custom-instructions-chatgpt.md into the chatbox OR use this custom GPT I developed: [https://chat.openai.com/g/g-6vY2C2iE0-gptenhanced](https://chat.openai.com/g/g-6vY2C2iE0-gptenhanced).
@@ -337,7 +340,10 @@ Note: There are currently no enhanced instruction sets for Pi but these will be 
   - Or you can use my Custom GPT on ChatGPT here: [https://chat.openai.com/g/g-ebc9kwth4-insight-horizon-interactive-journal](https://chat.openai.com/g/g-ebc9kwth4-insight-horizon-interactive-journal)
 - Wellness Coach: A dedicated wellness coach who will help you with every step of your wellness journey.
   - Or you can use my Custom GPT on ChatGPT here: [https://chat.openai.com/g/g-n7CXgYg3a-wellness-coach](https://chat.openai.com/g/g-n7CXgYg3a-wellness-coach)
+- WordPress Specialist: A highly advanced, dedicated WordPress development assistant.
+  - Or you use my Custom GPT on ChatGPT here: [https://chat.openai.com/g/g-HBZeBPvhe-wpguru](https://chat.openai.com/g/g-HBZeBPvhe-wpguru)
 - Medical Advisor (coming soon)
-- Co-programmer / Coding Assistant (coming soon)
+- Python Co-programmer / Coding Assistant (coming soon)
 - Full Time Panel Mode (coming soon)
+- Command and stacking integration in dedicated modes coming soon.
 - More enhanced instructions coming soon!

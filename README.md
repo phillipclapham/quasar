@@ -321,8 +321,8 @@ These enhancements are designed to significantly boost the power and focus of th
 
 **Current Enhancements**:
 
-- /@ [field] and /@ panel: These enhancements boost the power of either the expert being consulted or the panel being created by adding a much deeper focus to the core programming of the command.
-- /?: These enhancements further cements this tools ability to lead to insights that can be gathered in no other way.
+- **/@ [field] and /@ panel**: These enhancements boost the power of either the expert being consulted or the panel being created by adding a much deeper focus to the core programming of the command.
+- **/?**: These enhancements further cements this tools ability to lead to insights that can be gathered in no other way.
 - New commands and enhancements coming soon!
 
 ## Working with Enhanced Instructions:

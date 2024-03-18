@@ -17,7 +17,7 @@ More instructions and prompts coming soon.
 
 - My approach was developed via an iterative process working primarily with GPT-4, but also extensively with Claude 3 Opus, Gemini Advanced, and Pi 2.5.
 - Many, many approaches were considered for each step of the optimizations and the final approach was chosen based off a balance of preferences to the produced responses and AI's own analysis of effectiveness.
-- The most interesting result was that all AIs tested (except Claude) work by far the best using the 'Advanced AI from future' approach (read custom-instructions-chatgpt.md for more info). Claude however is guardrailed against this type of emulation and it is the only instruction set that does not take this approach.
+- The most interesting result was that all AIs tested (except Claude) work by far the best using the 'Advanced AI from the future' approach (see the ChatGPT section of the 'How To Install' section to see the verbiage for this role). Claude however is guardrailed against this type of emulation and it is the only instruction set that does not take this approach, opting instead for a crafted persona that is meant to remind it to act to the full extent of its abilites with every query.
 - A detailed engagement guide is included that helps to further push the boundaries of the AI's capabilities while still ensuring it's responses are focused and actionable.
 - A DSL (consisting of a small set of stackable commands) is included that will SIGNIFIGANTLY supercharge your queries.
 

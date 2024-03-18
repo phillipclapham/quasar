@@ -305,6 +305,8 @@ As mentioned in 'The Basics' section one of the best uses for AI chatbots is in 
 
 **Current Enhanced Instruction Sets**
 
+Note: There are currently no enhanced instruction sets for Pi but these will be added soon.
+
 - Interactive Journal: Converse with a interactive journal meant to help you clear your head and talk out your thoughts
   - Or you can use my Custom GPT on ChatGPT here: [https://chat.openai.com/g/g-ebc9kwth4-insight-horizon-interactive-journal](https://chat.openai.com/g/g-ebc9kwth4-insight-horizon-interactive-journal)
 - Wellness Coach: A dedicated wellness coach who will help you with every step of your wellness journey.

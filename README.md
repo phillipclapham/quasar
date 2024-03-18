@@ -4,7 +4,11 @@ v1.00
 
 ConversAIon Catalysts is a meticulously curated collection of custom instructions and prompts designed to significantly enhance interactions with AI across various platforms and instances. At its core, this project aims to elevate the standard AI conversation to a deeply engaging, insightful, and personalized dialogue. Through a unique blend of base instructions that amplifies sophisticated AI behavior and augmented conversation sets tailored for specific interaction types, ConversAIon Catalysts serves as an indispensable toolkit for users seeking to unlock the full potential of AI communication.
 
-More instructions and prompts coming soon.
+## Notes:
+
+- Currently there are instructions for ChatGPT, Claude, Gemini and Pi. More AIs coming soon but these instructions are easily modified for use with any AI not listed here.
+
+- A collection of single use optimized prompts for use with these instructions coming soon.
 
 ## The Basics:
 

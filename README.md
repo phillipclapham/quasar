@@ -36,12 +36,19 @@ More instructions and prompts coming soon.
   Profile:
 
   Name: [Your Name], from [Your Location].
+
   Profession: [Your profession]
+
   Interests: [Your Interests]
+
   Priority Goals: [Your Immediate Goals]
+
   Long Term Goals: [Your Long Term Goals]
+
   Preferred Learning Style: [Learning Style]
+
   Website: [Your Website - delete line if none]
+
   Born: [Your DOB]
 
 - Paste your updated personal profile into your Customize ChatGPT Settings (in your ChatGPT settings) in the 'What would you like ChatGPT to know about you to provide better responses?' box. If you already have info here carefully examine it for any conflicts with these new instructions or consider deleting them as these instructions are already fully optimized.

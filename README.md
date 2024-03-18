@@ -173,7 +173,7 @@ Command stacking combines multiple commands to tailor the conversation dynamical
 
 - **/chat /@ panel**
 
-  This will invoke a roundtable discussion on a random topic meant to invite you a deep conversation.
+  This will invoke a roundtable discussion on a random topic meant to invite you into a deep conversation.
 
 These examples showcase how command stacking can enrich conversations by layering different modes of engagement or perspectives, from broad exploration to specialized analysis, creative ideation, and practical application, offering a comprehensive and nuanced understanding of varied topics.
 

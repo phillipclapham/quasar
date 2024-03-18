@@ -285,4 +285,6 @@ As mentioned in 'The Basics' section one of the best uses for AI chatbots is in 
 
 - Interactive Journal: Converse with a interactive journal meant to help you clear your head and talk out your thoughts
 - Wellness Coach: A dedicated wellness coach who will help you with every step of your wellness journey.
+- Medical Advisor (coming soon)
+- Co-programmer / coding assistant (coming soon)
 - More enhanced instructions coming soon!

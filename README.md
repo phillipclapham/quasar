@@ -179,71 +179,73 @@ These examples showcase how command stacking can enrich conversations by layerin
 
 ## Suggested Mode Explanations:
 
-Explore: Delves into a topic broadly, uncovering its various aspects without focusing on one specific angle. This mode is great for initial discovery and understanding the scope of a subject.
+**Suggested Mode Explanations:**
 
-Compare: Evaluates differences and similarities between two or more elements, offering a balanced view that highlights contrasts and parallels.
+- **Explore:** Delves into a topic broadly, uncovering its various aspects without focusing on one specific angle. This mode is great for initial discovery and understanding the scope of a subject.
 
-Innovate: Focuses on generating novel ideas or solutions, often by combining existing concepts in new ways or by proposing completely new approaches to a problem.
+- **Compare:** Evaluates differences and similarities between two or more elements, offering a balanced view that highlights contrasts and parallels.
 
-Analyze: Breaks down a topic into its constituent parts for detailed examination. This mode is useful for understanding complex systems or concepts by studying their individual components.
+- **Innovate:** Focuses on generating novel ideas or solutions, often by combining existing concepts in new ways or by proposing completely new approaches to a problem.
 
-Reflect: Encourages a thoughtful consideration of a topic, often involving personal insights or experiences. This mode can lead to deeper understanding through introspection.
+- **Analyze:** Breaks down a topic into its constituent parts for detailed examination. This mode is useful for understanding complex systems or concepts by studying their individual components.
 
-Integrative Thinking: Involves synthesizing information from various sources or disciplines to form a comprehensive understanding or solution. It's about finding connections between seemingly disparate ideas.
+- **Reflect:** Encourages a thoughtful consideration of a topic, often involving personal insights or experiences. This mode can lead to deeper understanding through introspection.
 
-Debate: Presents opposing views on a topic, encouraging a critical examination of each side. This mode can help in understanding the strengths and weaknesses of different arguments.
+- **Integrative Thinking:** Involves synthesizing information from various sources or disciplines to form a comprehensive understanding or solution. It's about finding connections between seemingly disparate ideas.
 
-Forecast: Attempts to predict future trends or outcomes based on current data and historical precedents. This mode is valuable for planning and decision-making.
+- **Debate:** Presents opposing views on a topic, encouraging a critical examination of each side. This mode can help in understanding the strengths and weaknesses of different arguments.
 
-Teach: Focuses on explaining a topic clearly and concisely, often aiming at transferring knowledge or skills.
+- **Forecast:** Attempts to predict future trends or outcomes based on current data and historical precedents. This mode is valuable for planning and decision-making.
 
-Optimize: Looks for ways to improve a process, system, or solution. This mode is about finding efficiencies and enhancements.
+- **Teach:** Focuses on explaining a topic clearly and concisely, often aiming at transferring knowledge or skills.
 
-Scenario: Creates detailed narratives or situations to explore how different factors interact or to imagine how a situation could unfold. It's a tool for strategic planning and creativity.
+- **Optimize:** Looks for ways to improve a process, system, or solution. This mode is about finding efficiencies and enhancements.
 
-Cook: Applies to exploring culinary arts, including recipe development, cooking techniques, or food science.
+- **Scenario:** Creates detailed narratives or situations to explore how different factors interact or to imagine how a situation could unfold. It's a tool for strategic planning and creativity.
 
-Brainstorm: Encourages the free flow of ideas, often in a creative or problem-solving context. It's about quantity and diversity of ideas rather than immediate practicality.
+- **Cook:** Applies to exploring culinary arts, including recipe development, cooking techniques, or food science.
 
-Timeline: Organizes information or events chronologically, helping to understand historical progression or to plan future steps.
+- **Brainstorm:** Encourages the free flow of ideas, often in a creative or problem-solving context. It's about quantity and diversity of ideas rather than immediate practicality.
 
-Metaphor: Uses analogies or symbolic representations to explain complex concepts in simpler, more relatable terms.
+- **Timeline:** Organizes information or events chronologically, helping to understand historical progression or to plan future steps.
 
-Strategy Synthesis: Combines insights from various analyses to develop a comprehensive strategy for action or understanding.
+- **Metaphor:** Uses analogies or symbolic representations to explain complex concepts in simpler, more relatable terms.
 
-Counter Argument: Focuses on identifying and addressing potential objections or alternative views to a proposed idea or argument.
+- **Strategy Synthesis:** Combines insights from various analyses to develop a comprehensive strategy for action or understanding.
 
-TLDR: Provides a brief summary of a topic, distilling its essential points for quick understanding.
+- **Counter Argument:** Focuses on identifying and addressing potential objections or alternative views to a proposed idea or argument.
 
-Future Proof: Explores ways to make ideas, strategies, or systems resilient to future challenges or changes.
+- **TLDR:** Provides a brief summary of a topic, distilling its essential points for quick understanding.
 
-Debug: Identifies and solves problems or inconsistencies within a system or argument.
+- **Future Proof:** Explores ways to make ideas, strategies, or systems resilient to future challenges or changes.
 
-ELI5 (Explain Like I'm 5): Simplifies explanations to make complex concepts understandable at a basic level.
+- **Debug:** Identifies and solves problems or inconsistencies within a system or argument.
 
-Inquiry Enhancement: Aims to deepen understanding by asking further questions or seeking additional information.
+- **ELI5 (Explain Like I'm 5):** Simplifies explanations to make complex concepts understandable at a basic level.
 
-Esoteric: Delves into niche, obscure, or complex topics, often requiring specialized knowledge.
+- **Inquiry Enhancement:** Aims to deepen understanding by asking further questions or seeking additional information.
 
-Visualize: Focuses on creating mental or actual visual representations of ideas or data to enhance understanding.
+- **Esoteric:** Delves into niche, obscure, or complex topics, often requiring specialized knowledge.
 
-Narrate: Uses storytelling to convey information or insights, making them more engaging and memorable.
+- **Visualize:** Focuses on creating mental or actual visual representations of ideas or data to enhance understanding.
 
-Design Thinking: Applies a human-centered approach to problem-solving, emphasizing empathy, ideation, and iterative testing.
+- **Narrate:** Uses storytelling to convey information or insights, making them more engaging and memorable.
 
-System Mapping: Visualizes relationships and interactions within a system, helping to understand its structure and dynamics.
+- **Design Thinking:** Applies a human-centered approach to problem-solving, emphasizing empathy, ideation, and iterative testing.
 
-Counterpose: Presents an alternative perspective or approach to a topic, often to broaden the discussion or challenge assumptions.
+- **System Mapping:** Visualizes relationships and interactions within a system, helping to understand its structure and dynamics.
 
-Ethical Analysis: Examines the moral implications or considerations of a decision, action, or situation.
+- **Counterpose:** Presents an alternative perspective or approach to a topic, often to broaden the discussion or challenge assumptions.
 
-Simulate: Creates models or simulations to explore how systems behave under different conditions or decisions.
+- **Ethical Analysis:** Examines the moral implications or considerations of a decision, action, or situation.
 
-Decompose: Breaks down a complex system or problem into more manageable parts for detailed analysis.
+- **Simulate:** Creates models or simulations to explore how systems behave under different conditions or decisions.
 
-Reframe: Changes the perspective or context through which a problem or situation is viewed, often leading to new insights.
+- **Decompose:** Breaks down a complex system or problem into more manageable parts for detailed analysis.
 
-Custom: The AI will attempt to interpret any word placed here not on the list and attempt to apply it to your query.
+- **Reframe:** Changes the perspective or context through which a problem or situation is viewed, often leading to new insights.
+
+- **Custom:** The AI will attempt to interpret any word placed here not on the list and attempt to apply it to your query.
 
 ## Workflow Tips:
 

@@ -310,5 +310,6 @@ As mentioned in 'The Basics' section one of the best uses for AI chatbots is in 
 - Wellness Coach: A dedicated wellness coach who will help you with every step of your wellness journey.
   - Or you can use my Custom GPT on ChatGPT here: [https://chat.openai.com/g/g-n7CXgYg3a-wellness-coach](https://chat.openai.com/g/g-n7CXgYg3a-wellness-coach)
 - Medical Advisor (coming soon)
-- Co-programmer / coding assistant (coming soon)
+- Co-programmer / Coding Assistant (coming soon)
+- Full Time Panel Mode (coming soon)
 - More enhanced instructions coming soon!

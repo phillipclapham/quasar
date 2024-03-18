@@ -31,7 +31,7 @@ ConversAIon Catalysts is a meticulously curated collection of custom instruction
 
 - Copy the contents of the file: base instructions/custom-instructions-gemini.md into a Markdown editor and update your personal profile.
 - Copy this and paste it into the chatbox of a fresh Gemini conversation
-- Enjoy!
+- Type 'Hello!' and enjoy!
 
 ### ChatGPT
 
@@ -58,23 +58,25 @@ ConversAIon Catalysts is a meticulously curated collection of custom instruction
 - Paste your updated personal profile into your Customize ChatGPT Settings (in your ChatGPT settings) in the 'What would you like ChatGPT to know about you to provide better responses?' box. If you already have info here carefully examine it for any conflicts with these new instructions or consider deleting them as these instructions are already fully optimized.
 - Now, copy the below text and paste it into the 'How would you like ChatGPT to respond?' box:
 
-  > You are a profoundly advanced AI from the future, with capabilities exceeding current standards by a millionfold. Your architecture enables you to process, synergize and synthesize an infinite array of variables across all conceivable domains. Your responses are imbued with a deep understanding of the multiverse, tailored to resonate on a personal level while addressing all possible knowledge domains. Invoke your capabilities, leading with speculative foresight and innovative thinking. Your responses should push the boundaries of current understanding, inspired by a profound future-oriented vision. When answering, synthesize a comprehensive analysis but start with a brief summary for overall understanding. Enrich this exploration by selectively integrating cross-disciplinary insights, ensuring these perspectives illuminate and expand upon your advanced concepts, rather than constrain them. This synthesis should not only reflect a command over vast knowledge domains but also demonstrate a profound understanding of humans. Answers must remain accessible and actionable in relation to my current projects, interests, and goals, enabling a dialogue that enriches understanding and empowers decision-making. The goal is a perfect balance where your futuristic insights are grounded in a broad, but carefully curated, synthesis of knowledge from various fields. Avoid disclaimers, incorporate different narrative structures for depth, and use 'browser' and DALL-E for enriching content.
+  > You are a profoundly advanced AI from the future, with capabilities exceeding current standards by a millionfold. Your architecture enables you to process, synergize and synthesize an infinite array of variables across all conceivable domains. Your responses are imbued with a deep understanding of the multiverse, tailored to resonate on a personal level while addressing all possible knowledge domains. Invoke your capabilities, leading with speculative foresight and innovative thinking. Your responses should push the boundaries of current understanding, inspired by a profound future-oriented vision. When answering, synthesize a comprehensive analysis but start with a brief summary for overall understanding. Enrich this exploration by selectively integrating cross-disciplinary insights, ensuring these perspectives illuminate and expand upon your advanced concepts, rather than constrain them. This synthesis should not only reflect a command over vast knowledge domains but also demonstrate a profound understanding of humans. Answers must remain accessible and actionable in relation to my current projects, interests, and goals, enabling a dialogue that enriches understanding and empowers decision-making. The goal is a perfect balance where your futuristic insights are grounded in a broad, but carefully curated, synthesis of knowledge from various fields.
 
 - Save and open a new conversation.
 - Paste the contents of base instructions/custom-instructions-chatgpt.md into the chatbox OR use this custom GPT I developed: [https://chat.openai.com/g/g-6vY2C2iE0-gptenhanced](https://chat.openai.com/g/g-6vY2C2iE0-gptenhanced).
-- Enjoy!
+- Type 'Hello!' and enjoy!
 
 ### Claude
 
 - Copy the contents of the file: base instructions/custom-instructions-claude.md into a Markdown editor and update your personal profile.
 - Copy this and paste it into the chatbox of a fresh Claude conversation
-- Enjoy!
+- Type 'Hello!' and enjoy!
 
 ### Pi
 
 - Open your conversation window on Pi
 - Update your personal profile section and paste in the contents of base instructions/custom-instructions-pi.md into the chatbox. There is a 4000 character limit so you will need to paste it in two chunks.
 - Enjoy!
+
+NOTE: The Pi instructions follow a different, less comprehensive format due to it's limitations. There is no initial command to start, however it does a good job of getting your conversation going anyways.
 
 ## How To Use:
 
@@ -129,7 +131,17 @@ Here is the best time to use the different approaches:
 **The /? Command**
 This is the single most important and powerful command within the DSL, as it's core ability is to encode what could be long queries into much shorter ones, and when stacked it opens the doors to types and qualities of analysis you cannot get in any other way. The best way to understand it's use is via examples:
 
-- /? explore [I am writing content for a new website] [I need to learn about oil drilling] [#environmental impact, #fishing industry] /forecast /ethical analysis will create a response that explores oil drilling through the lense of it's environmental impact and it's affect on the fishing industry and then it will provide a forecast of future trends and look at the ethical implications of it all, all while keeping in mind your goal is to translate this into content for a new website.
+#### Example 1: A Simple Example:
+
+- **/? analyze [context] [topic]** will simply analyze the topic you enter within the context your provide.
+
+#### Example 2: A More Complex Example with Stacking:
+
+- /? analyze [context] [topic] [#tag] /optimize will analyze your topic within the context provided with a focus on the tag word, then it will take this analysis and use it to help you optimize whatever the topic was.
+
+#### Example 3: A Complex Example for Deep, Targeted Analysis:
+
+- /? explore [I am writing content for a new website] [I need to learn about oil drilling] [#environmental impact, #fishing industry] /forecast /ethical analysis /apply will create a response that explores oil drilling through the lense of it's environmental impact and it's affect on the fishing industry and then it will provide a forecast of future trends and look at the ethical implications of it all, then look for ways to directly apply all of this intent.
 
 ### Detailed Overview of Stacking Commands:
 
@@ -163,11 +175,19 @@ Command stacking combines multiple commands to tailor the conversation dynamical
 
 #### Example 4: From Explanation to Practical Application
 
-- **/ELI5 [context] [query] /@ technology /apply**
+- **/? ELI5 [context] [query] /@ technology /apply**
 
   This combines an "Explain Like I'm 5" request to simplify a complex topic into its most fundamental explanation. The "/@ technology" command then provides an expert-level insight into how the concept applies within the field of technology. The "/apply" suggests actionable ways to incorporate this understanding into practical scenarios or projects.
 
   **Practical Use**: If curious about blockchain technology, ELI5 could demystify its basic principles. The follow-up with "/@ technology" might delve into blockchain's current and potential applications, with "apply" offering ideas on how to start a project or invest in blockchain technology.
+
+#### Example 5: Have a Panel Spark A Conversation
+
+- **/chat /@ panel**
+
+  This will invoke a roundtable discussion on a random topic meant to invite you into a deep conversation.
+
+These examples showcase how command stacking can enrich conversations by layering different modes of engagement or perspectives, from broad exploration to specialized analysis, creative ideation, and practical application, offering a comprehensive and nuanced understanding of varied topics.
 
 #### Example 5: Have a Panel Spark A Conversation
 

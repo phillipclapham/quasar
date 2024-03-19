@@ -335,14 +335,15 @@ As mentioned in 'The Basics' section one of the best uses for AI chatbots is in 
 
 Note: There are currently no enhanced instruction sets for Pi but these will be added soon.
 
-- Interactive Journal: Converse with a interactive journal meant to help you clear your head and talk out your thoughts
+- **Interactive Journal**: Converse with a interactive journal meant to help you clear your head and talk out your thoughts
   - Or you can use my Custom GPT on ChatGPT here: [https://chat.openai.com/g/g-ebc9kwth4-insight-horizon-interactive-journal](https://chat.openai.com/g/g-ebc9kwth4-insight-horizon-interactive-journal)
-- Wellness Coach: A dedicated wellness coach who will help you with every step of your wellness journey.
+- **Wellness Coach**: A dedicated wellness coach who will help you with every step of your wellness journey.
   - Or you can use my Custom GPT on ChatGPT here: [https://chat.openai.com/g/g-n7CXgYg3a-wellness-coach](https://chat.openai.com/g/g-n7CXgYg3a-wellness-coach)
-- WordPress Specialist: A highly advanced, dedicated WordPress development assistant.
-  - Or you use my Custom GPT on ChatGPT here: [https://chat.openai.com/g/g-HBZeBPvhe-wpguru](https://chat.openai.com/g/g-HBZeBPvhe-wpguru)
+- **WordPress Mentor**: A highly advanced, dedicated WordPress development assistant and mentor.
+  - Or you can use my Custom GPT on ChatGPT here: [https://chat.openai.com/g/g-HBZeBPvhe-wpguru](https://chat.openai.com/g/g-HBZeBPvhe-wpguru)
+- **Python Mentor**: A highly advanced, dedicated Python development assistant and mentor.
+  - Or you can use my Custom GPT on ChatGPT here: [https://chat.openai.com/g/g-cf13IADWV-pythonguru](https://chat.openai.com/g/g-cf13IADWV-pythonguru)
 - Medical Advisor (coming soon)
-- Python Co-programmer / Coding Assistant (coming soon)
 - Full Time Panel Mode (coming soon)
 - Command and stacking integration in dedicated modes coming soon.
 - More enhanced instructions coming soon!

@@ -4,11 +4,26 @@ by Phillip Clapham | v1.00
 
 ConversAIon Catalysts is a meticulously curated collection of custom instructions and prompts designed to significantly enhance interactions with AI across various platforms and instances. At its core, this project aims to elevate the standard AI conversation to a deeply engaging, insightful, and personalized dialogue. Through a unique blend of base instructions that amplifies sophisticated AI behavior and augmented conversation sets tailored for specific interaction types, ConversAIon Catalysts serves as an indispensable toolkit for users seeking to unlock the full potential of AI communication.
 
+**What are custom instructions?**
+Custom instructions are just long prompts you place into the chatbox of a new conversation with your favorite AI. These prompts optimize the AI and provides a robust communications framework to supercharge the AI's reasoning and responses.
+
+- The base instructions are meant to supercharge the AI of your choice to be the ultimate general use chatbot.
+
+- The enhanced instruction sets are meant to take the optimization and apply them to AIs to make them excel at singular tasks.
+
 ## Notes:
 
 - Currently there are instructions for ChatGPT, Claude, Gemini and Pi. More AIs coming soon but these instructions are easily modified for use with any AI not listed here.
 
-- A collection of single use optimized prompts for use with these instructions coming soon.
+- See prompts/conversaion-catalysts-prompts.md for single prompt ideas for use with these custom instruction sets.
+
+- If you are just getting started I suggest first working with the base instruction for your LLM to familiarize yourself with how these work.
+
+## Base Instruction Quick Start
+
+- Copy the appropriate base instructions (located in the base instructions folder) into the chatbox of the LLM your are using (making sure to update your personal profile if the instruction set you are using has one).
+  - For ChatGPT I suggest following the more detailed guide below as there are additional steps to follow.
+- Type 'Hello!' into the chatbox and enjoy!
 
 ## The Basics:
 
@@ -147,9 +162,9 @@ This is the single most important and powerful command within the DSL, as it's c
 
 ### Detailed Overview of Stacking Commands:
 
-As seen above both commands and modes can be stacked. Here are more examples:
+As seen above both commands and modes can be stacked. Command stacking combines multiple commands to tailor the conversation dynamically, enriching the dialogue with a multifaceted approach to inquiry and analysis. Please see prompts/conversaion-catalysts-prompts.md for examples of how to utilize command stacking.
 
-Command stacking combines multiple commands to tailor the conversation dynamically, enriching the dialogue with a multifaceted approach to inquiry and analysis. Here are some examples of command stacking that demonstrate how to leverage this capability for deeper insights and more comprehensive exploration:
+**NOTE**: When stacking the /@ and /? commands the /@ must always come first.
 
 #### Example 1: Integrating Depth and Perspective
 
@@ -331,6 +346,8 @@ These enhancements are designed to significantly boost the power and focus of th
 
 As mentioned in 'The Basics' section one of the best uses for AI chatbots is in specialized roles, rather than acting as general use agents. While the bulk of this guide has focused on optimizing a general use AI to make it more powerful, we can also apply these principals to create AI conversations that are focused on much more specific tasks. To use these files (located in enhanced instructions) make sure your personal profile is updated (for all but ChatGPT) and then simple copy and paste the file contents into the new conversation window.
 
+NOTE: You do not need the base instructions to run these, these instruction sets each include the appropriate base instructions for their LLM.
+
 **Current Enhanced Instruction Sets**
 
 Note: There are currently no enhanced instruction sets for Pi but these will be added soon.
@@ -343,6 +360,7 @@ Note: There are currently no enhanced instruction sets for Pi but these will be 
   - Or you can use my Custom GPT on ChatGPT here: [https://chat.openai.com/g/g-HBZeBPvhe-wpguru](https://chat.openai.com/g/g-HBZeBPvhe-wpguru)
 - **Python Mentor**: A highly advanced, dedicated Python development assistant and mentor.
   - Or you can use my Custom GPT on ChatGPT here: [https://chat.openai.com/g/g-cf13IADWV-pythonguru](https://chat.openai.com/g/g-cf13IADWV-pythonguru)
+- Road Trip Companion (coming soon)
 - Medical Advisor (coming soon)
 - Full Time Panel Mode (coming soon)
 - Command and stacking integration in dedicated modes coming soon.

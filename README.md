@@ -224,6 +224,12 @@ As seen above both commands and modes can be stacked. Command stacking combines 
 
 These examples showcase how command stacking can enrich conversations by layering different modes of engagement or perspectives, from broad exploration to specialized analysis, creative ideation, and practical application, offering a comprehensive and nuanced understanding of varied topics.
 
+#### More Examples
+
+- Command Stack: /explore alternative medicine /analyze chronic pain /innovate treatment options
+- Speculative Brainstorm: /brainstorm multiverse /reflect personal growth /humor
+- Strategic Insight: Let's discuss my website optimization – /analyze SEO /explore user experience /innovate content strategy
+
 ## Workflow Tips:
 
 - Make sure to run /fb often to optimize the AI to your own workflow and preferences.

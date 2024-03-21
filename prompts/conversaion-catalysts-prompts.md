@@ -1,34 +1,34 @@
-# ConversAIon Catalysts Prompts
+# ConversAIon Catalysts Example Prompts
 
 Example prompts for use with the base instructions. Feel free to build off these examples to supercharge your own prompts.
 
 ## Fun Prompts
 
-/? imagine [compose a short story] #timeTravel #dinosaurs #pizzaParty
+/imagine [compose a short story] #timeTravel #dinosaurs #pizzaParty
 Imagine a time traveler accidentally hosts a pizza party in the Jurassic period. What happens when dinosaurs develop a taste for pizza?
 
-/? joke [robot] #cooking #spaghetti
+/joke [robot] #cooking #spaghetti
 Why did the robot become a chef? To learn how to properly "sauce" code spaghetti.
 
-/@ [create a recipe] [a dessert using only ingredients from Mars] #spaceExploration #chocolate
+/expert pastry chef [create a recipe] [a dessert using only ingredients from Mars] #spaceExploration #chocolate
 Craft a dessert recipe fit for astronauts, using 'Martian' ingredients with a focus on chocolate. Let's call it "Martian Mocha Madness."
 
-/? innovate [future sports] #zeroGravity #underwater
+/innovate [future sports] #zeroGravity #underwater
 Imagine a new sport that combines zero gravity and underwater elements. What would it look like, and what are the rules?
 
 /@ Captain Holt from Brooklyn Nine-Nine [plan a perfect vacation] #mysteryNovels #jazzMusic
 Captain Holt needs to unwind. Design his perfect vacation itinerary focused on mystery novels and jazz music. Where does he go, and what does he do?
 
-/@ GPT-4 [design a board game] #pirates #timeTravel
+/@ game designer [design a board game] #pirates #timeTravel
 Outline a board game where players are pirates who can time travel. What are the objectives, challenges, and unique game mechanics?
 
-/? reflect [meaning of dreams] #flyingCats #talkingTrees
+/reflect [meaning of dreams] #flyingCats #talkingTrees
 Analyze the hypothetical significance of dreaming about flying cats and talking trees. What could these symbols represent in our subconscious?
 
-/@ [compose a song] [robots falling in love] #electronicMusic #futurePop
+/expert songwriter [compose a song] [robots falling in love] #electronicMusic #futurePop
 Create lyrics for a future pop song about robots experiencing love for the first time, set to electronic music. What emotions do they encounter?
 
-/? innovate [eco-friendly transportation] #solarPower #hoverTechnology
+/innovate [eco-friendly transportation] #solarPower #hoverTechnology
 Conceptualize a new form of eco-friendly transportation using solar power and hover technology. How does it work, and what makes it environmentally friendly?
 
 /@ Bart Simpson [write a diary entry] #prankGoneWrong #detention
@@ -36,34 +36,34 @@ Bart Simpson recounts his latest prank that went wrong, leading to an unexpected
 
 ## Prompts for Work
 
-/@ project manager /? analyze [business trends] [emerging technologies in finance] #blockchain #AI
+/@ project manager /analyze [business trends] [emerging technologies in finance] #blockchain #AI
 Examine how emerging technologies like blockchain and artificial intelligence (AI) are reshaping finance through the lens of a project manager. What trends are observable, and what implications do they have for the future of financial services?
 
-/? innovate [sustainable energy solutions for businesses] #solarPower #energyEfficiency
+/innovate [sustainable energy solutions for businesses] #solarPower #energyEfficiency
 Identify innovative sustainable energy solutions that businesses can implement. Focus on solar power and energy efficiency technologies that can reduce carbon footprint and operational costs.
 
-/? create [a marketing strategy] [new health and wellness app] #digitalMarketing #userEngagement
+/create [a marketing strategy] [new health and wellness app] #digitalMarketing #userEngagement
 Develop a comprehensive digital marketing strategy for a new health and wellness app, emphasizing user engagement and conversion. What channels and tactics will you prioritize?
 
-/? analyze [workplace productivity] [impact of remote work] #teamDynamics #communicationTools
+/analyze [workplace productivity] [impact of remote work] #teamDynamics #communicationTools
 Investigate the impact of remote work on workplace productivity. Consider factors such as team dynamics and the role of communication tools. How can organizations optimize productivity in a remote setting?
 
-/? evaluate [investment opportunities] [tech startups in the green energy sector] #ventureCapital #marketAnalysis
+/evaluate [investment opportunities] [tech startups in the green energy sector] #ventureCapital #marketAnalysis
 Conduct a market analysis to evaluate investment opportunities in tech startups within the green energy sector. What criteria will you use to assess their potential for venture capital funding?
 
-/@ panel /? forecast [future of e-commerce] #consumerBehavior #technologyAdoption
+/panel /forecast [future of e-commerce] #consumerBehavior #technologyAdoption
 Have a panel discuss and project the future of e-commerce considering evolving consumer behavior and technology adoption. Which trends are likely to dominate, and how should businesses prepare?
 
-/? develop [a project management plan] [enterprise software deployment] #agileMethodology #riskManagement
+/develop [a project management plan] [enterprise software deployment] #agileMethodology #riskManagement
 Create a detailed project management plan for deploying enterprise software, utilizing agile methodology. Include strategies for risk management and ensuring stakeholder engagement.
 
-/? innovate [employee wellness programs] #mentalHealth #remoteWork
+/innovate [employee wellness programs] #mentalHealth #remoteWork
 Conceptualize innovative employee wellness programs with a focus on supporting mental health in a remote work environment. What unique approaches can enhance employee well-being and productivity?
 
-/? compose [a legal analysis] [data privacy laws affecting online businesses] #GDPR #complianceStrategies
+/compose [a legal analysis] [data privacy laws affecting online businesses] #GDPR #complianceStrategies
 Provide a legal analysis of how data privacy laws, like GDPR, are affecting online businesses. Offer compliance strategies that businesses can implement to adhere to these regulations effectively.
 
-/? analyze [leadership in crisis management] #decisionMaking #teamResilience
+/analyze [leadership in crisis management] #decisionMaking #teamResilience
 Delve into leadership strategies effective in crisis management, focusing on decision-making processes and building team resilience. What traits and actions distinguish successful leaders during crises?
 
 ## Prompts for Creativity

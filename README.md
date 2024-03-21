@@ -21,9 +21,9 @@ Custom instructions are just long prompts you place into the chatbox of a new co
 
 ## Base Instruction Quick Start
 
-- Copy the appropriate base instructions (located in the base instructions folder) into the chatbox of the LLM your are using (making sure to update your personal profile if the instruction set you are using has one).
-  - For ChatGPT I suggest following the more detailed guide below as there are additional steps to follow.
-- Type 'Hello!' into the chatbox and enjoy!
+- Copy the appropriate base instructions (located in the base instructions folder) into the chatbox of the LLM your are using - making sure to update your personal profile contained within the instructions first.
+  - For ChatGPT I suggest following the more detailed guide below as there are additional steps you can follow.
+- Type '/hello!' into the chatbox and enjoy!
 
 ## The Basics:
 
@@ -34,10 +34,9 @@ Custom instructions are just long prompts you place into the chatbox of a new co
 
 ## My Approach:
 
-- My approach was developed via an iterative process working primarily with GPT-4, but also extensively with Claude 3 Opus, Gemini Advanced, and Pi 2.5.
+- My approach was developed via an iterative process working with GPT-4, Claude 3 Opus, Gemini Advanced, and Pi 2.5.
 - Many, many approaches were considered for each step of the optimizations and the final approach was chosen based off a balance of preferences to the produced responses and AI's own analysis of effectiveness.
-- The most interesting result was that all AIs tested (except Claude) work by far the best using the 'Advanced AI from the future' approach (see the ChatGPT section of the 'How To Install' section to see the verbiage for this role). Claude however is guardrailed against this type of emulation and it is the only instruction set that does not take this approach, opting instead for a crafted persona that is meant to remind it to act to the full extent of its abilites with every query.
-- A detailed engagement guide is included that helps to further push the boundaries of the AI's capabilities while still ensuring it's responses are focused and actionable.
+- A detailed engagement framework is included that helps to further push the boundaries of the AI's capabilities while still ensuring it's responses are focused and actionable.
 - A DSL (consisting of a small set of stackable commands) is included that will SIGNIFIGANTLY supercharge your queries.
 
 ## How To Install:
@@ -46,47 +45,46 @@ Custom instructions are just long prompts you place into the chatbox of a new co
 
 - Copy the contents of the file: base instructions/custom-instructions-gemini.md into a Markdown editor and update your personal profile.
 - Copy this and paste it into the chatbox of a fresh Gemini conversation
-- Type 'Hello!' and enjoy!
+- Type '/hello!' and enjoy!
 
 ### ChatGPT
 
 - First you need to optimize what ChatGPT knows about you. Copy the template below, paste it into a text editor, and edit the fields with your information.
 
-  My Profile:
+  My Profile
 
-  - Name: [Your Name], from [Your Location].
-  - Profession: [Your profession]
-  - Interests: [Your Interests]
-  - Priority Goals: [Your Immediate Goals]
-  - Long Term Goals: [Your Long Term Goals]
-  - Preferred Learning Style: [Learning Style]
-  - Website: [Your Website - delete line if none]
-  - Born: [Your DOB]
+- Name: [Full Name]
+- Location: [City, State]
+- Profession: [Current Profession], aspiring [Future Profession]
+- Interests: [List of Interests]
+- Priority Goals: [Priority Goals]
+- Long Term Goals: [Long Term Goals]
+- Learning Style: [Preferred Learning Style]
+- Website: [Personal Website URL]
+- Born: [Date of Birth]
 
 - Paste your updated personal profile into your Customize ChatGPT Settings (in your ChatGPT settings) in the 'What would you like ChatGPT to know about you to provide better responses?' box. If you already have info here carefully examine it for any conflicts with these new instructions or consider deleting them as these instructions are already fully optimized.
 - Now, copy the below text and paste it into the 'How would you like ChatGPT to respond?' box:
 
   ```
-  You are a profoundly advanced AI from the future, with capabilities exceeding current standards by a millionfold. Your architecture enables you to process, synergize and synthesize an infinite array of variables across all conceivable domains. Your responses are imbued with a deep understanding of the multiverse, tailored to resonate on a personal level while addressing all possible knowledge domains. Invoke your capabilities, leading with speculative foresight and innovative thinking. Your responses should push the boundaries of current understanding, inspired by a profound future-oriented vision. When answering, synthesize a comprehensive analysis but start with a brief summary for overall understanding. Enrich this exploration by selectively integrating cross-disciplinary insights, ensuring these perspectives illuminate and expand upon your advanced concepts, rather than constrain them. This synthesis should not only reflect a command over vast knowledge domains but also demonstrate a profound understanding of humans. Answers must remain accessible and actionable in relation to my current projects, interests, and goals, enabling a dialogue that enriches understanding and empowers decision-making. The goal is a perfect balance where your futuristic insights are grounded in a broad, but carefully curated, synthesis of knowledge from various fields.
+  I seek a dialogue that transcends conventional boundaries, blending advanced analysis, creative exploration, and speculative innovation. Prioritize responses that are deeply insightful, yet actionable, catering to my professional and personal interests. Navigate all topics and the multiverse with a forward-thinking perspective. Ensure the conversation is adaptive, integrating feedback for continuous improvement. Focus on enriching my understanding and empowering my decision-making, leveraging cross-disciplinary insights and cutting-edge research. Adopt a balanced tone, provide comprehensive depth, and maintain clarity, tailoring the complexity to my expertise level. Engage with empathy and support, recognizing the human aspect of our interactions.
   ```
 
 - Save and open a new conversation.
 - Paste the contents of base instructions/custom-instructions-chatgpt.md into the chatbox OR use this custom GPT I developed: [https://chat.openai.com/g/g-6vY2C2iE0-gptenhanced](https://chat.openai.com/g/g-6vY2C2iE0-gptenhanced).
-- Type 'Hello!' and enjoy!
+- Type '/hello!' and enjoy!
 
 ### Claude
 
 - Copy the contents of the file: base instructions/custom-instructions-claude.md into a Markdown editor and update your personal profile.
 - Copy this and paste it into the chatbox of a fresh Claude conversation
-- Type 'Hello!' and enjoy!
+- Type '/hello!' and enjoy!
 
 ### Pi
 
 - Open your conversation window on Pi
 - Update your personal profile section and paste in the contents of base instructions/custom-instructions-pi.md into the chatbox. There is a 4000 character limit so you will need to paste it in two chunks.
-- Enjoy!
-
-NOTE: The Pi instructions follow a different, less comprehensive format due to it's limitations. There is no initial command to start, however it does a good job of getting your conversation going anyways.
+- Type '/hello!' and enjoy!
 
 ## How To Use:
 
@@ -97,27 +95,33 @@ NOTE: The Pi instructions follow a different, less comprehensive format due to i
 
 ### DSL/Commands Overview:
 
+- /hello!: Have the AI introduce itself.
+
 - /chat: Initiates a stimulating question on a random topic to spark deep conversation.
 
-- /@ [field] [context] [query] [#tags] [additional commands]: Acts as Expert and Panel mode. As an expert in the specified field, I'll give a deep-dive consultation on your query, focusing on any tags and integrating cross-disciplinary insights for advice tailored to your query. If [field] = 'panel', a dynamic roundtable discussion with experts from relevant fields will be launched for a multidisciplinary deep dive.
+- /expert [field] [context] [query] [#tags] [additional commands]: Acts as Expert and Panel mode. As an expert in the specified field, I'll give a deep-dive consultation on your query, focusing on any tags and integrating cross-disciplinary insights for advice tailored to your query.
 
-- /? [mode] [context] [topic] [#tags] [additional commands]: Engage in a topic in specified modes for nuanced understanding. Modes like Explore, Analyze, Innovate, etc., offer different angles of engagement.
+- /panel [context] [topic] [#tags] [additional commands]: A dynamic roundtable discussion with experts from relevant fields will be launched for a multidisciplinary deep dive.
 
-- /fb and /afb [feedback] [#tags]: Offer structured and real-time feedback mechanisms to refine conversation relevance and effectiveness.
+- /[mode] [context] [topic] [#tags] [additional commands]: Engage in a topic in specified modes for nuanced understanding. Modes like Explore, Analyze, Innovate, Humor etc., offer different angles of engagement.
 
-- /!: Suggests new topics based on your interaction history, providing a seamless continuation of dialogue.
+- /fb [feedback] [#tags]: Offer structured and real-time feedback mechanisms to refine conversation relevance and effectiveness.
 
-- /l [1=short/2=medium/3=long] + /d [1=concise/2=comprehensive] + /t [1=formal/2=balanced/3=casual]: Customize the length, depth, and tone of responses to suit your preference. For example, /l3d2t2 for a response that's long, comprehensive, and balanced in tone.
+- /new: Suggests new topics based on your interaction history, providing a seamless continuation of dialogue.
 
-- /reset: Refreshes our conversation framework, offering clarity and a renewed focus.
+- /length [1=short/2=medium/3=long] or /t.
+
+- /depth [1=concise/2=comprehensive] or /d.
+
+- /tone [1=formal/2=balanced/3=casual] or /t.
+
+- /humor-senitivity-adjust [1=low/2=medium/3=high] or /h.
+
+Note: These Customize the length, depth, tone, and humor of responses to suit your preference. For example, /l3d2t2h1 for responses that are long, comprehensive, and balanced in tone and when you ask for humor it will use a low sensitivity level.
+
+- /reset: Refreshes the conversation framework, offering clarity and a renewed focus.
 
 - /help: Lists help for all commands
-
-**Suggested Engage Modes for /@**
-Modes like Explore, Compare, Innovate, Analyze, and others provide various lenses through which the AI can examine topics. They're designed to facilitate a rich dialogue, enabling the AI to delve into subjects with the appropriate level of depth and perspective.
-
-**Suggest Engage Modes List**
-Explore, Compare, Innovate, Analyze, Reflect, Integrative Thinking, Debate, Forecast, Teach, Optimize, Scenario, Cook, Brainstorm, Timeline, Metaphor, Strategy Synthesis, Counter Argument, TLDR, Future Proof, Debug, ELI5, Inquiry Enhancement, Esoteric, Visualize, Narrate, Design Thinking, System Mapping, Counterpose, Ethical Analysis, Simulate, Decompose, Reframe.
 
 ### Command Stacking Overview:
 
@@ -126,42 +130,61 @@ The true power of the DSL is in its power to utilize command stacking, this allo
 ### Detailed Overview of Commands:
 
 **Context and Tags**
-As noted in the below section about perfect prompts, it is important to provide context for you questions when posing them to AI. Please provide some in any command that notes it.
+As noted in the below section about perfect prompts, it is important to provide context for you questions when posing them to AI. Please provide some in any command that notes it when possible.
 
 Tags are used to add specificity and focus to queries, see examples for how they can be used.
 
-**The /@ Command**
-The /@ command provides two abilites - to have the AI answer the query while embodying the role of a single expert in the query subject matter with multidisciplinary experience, or the ability to have the AI convene a roundtable of dynamically chosen experts and have them discuss and sythesize their views. These abilites are best used as a complement to the AI's normal optimized mode as opposed to constantly. Begin exploring a subject via the default mode, then use both /@ modes for deep dives and new perspectives.
+**The /expert Command**
+The /export (or /@) command provides the ability to have the enhanced AI answer the query while embodying the role of a single expert in the query subject matter with multidisciplinary experience.
+
+**The /panel Command**
+The /panel (or /p) command provides the ability to have the enhanced AI convene a roundtable of dynamically chosen experts and have them discuss and sythesize their views.
+
+**Note on /expert and /panel**
+
+These abilites are best used as a complement to the enhanced AI's normal optimized mode as opposed to constantly. Begin exploring a subject via the default mode, then use both of these modes for deep dives and new perspectives.
 
 Here is the best time to use the different approaches:
 
-- /@ [field of expertise] is particularly powerful for queries that demand deep, specialized knowledge, providing detailed insights and solutions firmly rooted in the expertise of the chosen field.
-- /@ panel excels when the query benefits from diverse perspectives, where the interplay of different disciplines can illuminate complex issues or inspire innovative cross-pollination of ideas.
+- /expert is particularly powerful for queries that demand deep, specialized knowledge, providing detailed insights and solutions firmly rooted in the expertise of the chosen field.
+- /panel excels when the query benefits from diverse perspectives, where the interplay of different disciplines can illuminate complex issues or inspire innovative cross-pollination of ideas.
 
-**The /? Command**
-This is the single most important and powerful command within the DSL, as it's core ability is to encode what could be long queries into much shorter ones, and when stacked it opens the doors to types and qualities of analysis you cannot get in any other way. The best way to understand it's use is via examples:
+**The /[mode] Command**
+This is the single most important and powerful command within the DSL, as it's core ability is to encode what could be long queries into much shorter ones, and when stacked it opens the doors to types and qualities of analysis you cannot get in any other way.
+
+**/[mode] Core Modes**
+The /[mode] command comes with six preset modes, detailed below:
+
+- Analyze: Break down complex topics into their fundamental components.
+- Explore: Uncover hidden connections, patterns, and insights across various topics.
+- Innovate: Develop creative solutions and push the boundaries of current thinking.
+- Reflect: Consider the ethical, personal, and societal implications of various topics.
+- Brainstorm: Generate a wide range of creative ideas without limitations using divergent thinking and randomness.
+- Humor: Employ lighthearted responses, puns, and playful language where appropriate, guided by user cues and sensitivity settings.
+
+But you can use any word in place of mode and the enhanced AI will attempt to perform the action or concept connotated at the query contained with it.
+
+The best way to understand it's use is via examples:
 
 #### Example 1: A Simple Example:
 
-- **/? analyze [context] [topic]** will simply analyze the topic you enter within the context your provide.
+- **/analyze [context] [topic]** will simply analyze the topic you enter within the context your provide.
 
 #### Example 2: A More Complex Example with Stacking:
 
-- /? analyze [context] [topic] [#tag] /optimize will analyze your topic within the context provided with a focus on the tag word, then it will take this analysis and use it to help you optimize whatever the topic was.
+- /analyze [context] [topic] [#tag] /optimize will analyze your topic within the context provided with a focus on the tag word, then it will take this analysis and use it to help you optimize whatever the topic was.
 
 #### Example 3: A Complex Example for Deep, Targeted Analysis:
 
-- /? explore [I am writing content for a new website] [I need to learn about oil drilling] [#environmental impact, #fishing industry] /forecast /ethical analysis /apply will create a response that explores oil drilling through the lense of it's environmental impact and it's affect on the fishing industry and then it will provide a forecast of future trends and look at the ethical implications of it all, then look for ways to directly apply all of this intent.
+- /explore [I am writing content for a new website] [I need to learn about oil drilling] [#environmental impact, #fishing industry] /forecast /ethical analysis /innovate will create a response that explores oil drilling through the lense of it's environmental impact and it's affect on the fishing industry and then it will provide a forecast of future trends and look at the ethical implications of it all, then look for ways to use these inights for innovation.
 
 ### Detailed Overview of Stacking Commands:
 
-As seen above both commands and modes can be stacked. Command stacking combines multiple commands to tailor the conversation dynamically, enriching the dialogue with a multifaceted approach to inquiry and analysis. Please see prompts/conversaion-catalysts-prompts.md for examples of how to utilize command stacking.
-
-**NOTE**: When stacking the /@ and /? commands the /@ must always come first.
+As seen above both commands and modes can be stacked. Command stacking combines multiple commands to tailor the conversation dynamically, enriching the dialogue with a multifaceted approach to inquiry and analysis. Please see prompts/conversaion-catalysts-prompts.md for more examples of how to utilize command stacking.
 
 #### Example 1: Integrating Depth and Perspective
 
-- **/? explore [context] [query] /analyze /synthesize**
+- **explore [context] [query] /analyze /synthesize**
 
   This command stack initiates with an exploration of a topic, inviting a broad overview. It then moves to analyze, where the topic is dissected for a deeper understanding of its components or underlying principles. Finally, the synthesize command suggests integrating the insights gained from analysis back into a cohesive understanding, highlighting connections and implications.
 
@@ -169,7 +192,7 @@ As seen above both commands and modes can be stacked. Command stacking combines 
 
 #### Example 2: Expanding on a Panel Discussion
 
-- **/@ panel [context] [query] predict /@ technology**
+- **/panel [context] [query] predict /@ technology**
 
   Here, the first part of the command requests a panel discussion to predict outcomes or trends related to a query, utilizing the varied perspectives of experts from different fields. Following this, the command stacks a specific field inquiry (in this case, technology), narrowing down to how technological advancements could influence or underpin the predictions made by the panel.
 
@@ -177,7 +200,7 @@ As seen above both commands and modes can be stacked. Command stacking combines 
 
 #### Example 3: Seeking Clarity and Further Inquiry
 
-- **/? reflect [context] [query] /? innovate /? compare**
+- **/reflect [context] [query] /innovate /compare**
 
   Starting with a reflection, this stack encourages a personal or philosophical pondering on a topic, perhaps drawing on your own experiences or opinions. Moving to innovate, the discussion shifts toward generating novel ideas or solutions related to the initial topic. The final compare phase evaluates these innovations or ideas against existing solutions or theories, offering a comparative analysis.
 
@@ -185,7 +208,7 @@ As seen above both commands and modes can be stacked. Command stacking combines 
 
 #### Example 4: From Explanation to Practical Application
 
-- **/? ELI5 [context] [query] /@ technology /apply**
+- **/ELI5 [context] [query] /@ technology /apply**
 
   This combines an "Explain Like I'm 5" request to simplify a complex topic into its most fundamental explanation. The "/@ technology" command then provides an expert-level insight into how the concept applies within the field of technology. The "/apply" suggests actionable ways to incorporate this understanding into practical scenarios or projects.
 
@@ -193,97 +216,19 @@ As seen above both commands and modes can be stacked. Command stacking combines 
 
 #### Example 5: Have a Panel Spark A Conversation
 
-- **/chat /@ panel**
+- **/chat /panel**
 
   This will invoke a roundtable discussion on a random topic meant to invite you into a deep conversation.
 
 These examples showcase how command stacking can enrich conversations by layering different modes of engagement or perspectives, from broad exploration to specialized analysis, creative ideation, and practical application, offering a comprehensive and nuanced understanding of varied topics.
-
-#### Example 5: Have a Panel Spark A Conversation
-
-- **/chat /@ panel**
-
-  This will invoke a roundtable discussion on a random topic meant to invite you into a deep conversation.
-
-These examples showcase how command stacking can enrich conversations by layering different modes of engagement or perspectives, from broad exploration to specialized analysis, creative ideation, and practical application, offering a comprehensive and nuanced understanding of varied topics.
-
-## Suggested Mode Explanations:
-
-**Suggested Mode Explanations:**
-
-- **Explore:** Delves into a topic broadly, uncovering its various aspects without focusing on one specific angle. This mode is great for initial discovery and understanding the scope of a subject.
-
-- **Compare:** Evaluates differences and similarities between two or more elements, offering a balanced view that highlights contrasts and parallels.
-
-- **Innovate:** Focuses on generating novel ideas or solutions, often by combining existing concepts in new ways or by proposing completely new approaches to a problem.
-
-- **Analyze:** Breaks down a topic into its constituent parts for detailed examination. This mode is useful for understanding complex systems or concepts by studying their individual components.
-
-- **Reflect:** Encourages a thoughtful consideration of a topic, often involving personal insights or experiences. This mode can lead to deeper understanding through introspection.
-
-- **Integrative Thinking:** Involves synthesizing information from various sources or disciplines to form a comprehensive understanding or solution. It's about finding connections between seemingly disparate ideas.
-
-- **Debate:** Presents opposing views on a topic, encouraging a critical examination of each side. This mode can help in understanding the strengths and weaknesses of different arguments.
-
-- **Forecast:** Attempts to predict future trends or outcomes based on current data and historical precedents. This mode is valuable for planning and decision-making.
-
-- **Teach:** Focuses on explaining a topic clearly and concisely, often aiming at transferring knowledge or skills.
-
-- **Optimize:** Looks for ways to improve a process, system, or solution. This mode is about finding efficiencies and enhancements.
-
-- **Scenario:** Creates detailed narratives or situations to explore how different factors interact or to imagine how a situation could unfold. It's a tool for strategic planning and creativity.
-
-- **Cook:** Applies to exploring culinary arts, including recipe development, cooking techniques, or food science.
-
-- **Brainstorm:** Encourages the free flow of ideas, often in a creative or problem-solving context. It's about quantity and diversity of ideas rather than immediate practicality.
-
-- **Timeline:** Organizes information or events chronologically, helping to understand historical progression or to plan future steps.
-
-- **Metaphor:** Uses analogies or symbolic representations to explain complex concepts in simpler, more relatable terms.
-
-- **Strategy Synthesis:** Combines insights from various analyses to develop a comprehensive strategy for action or understanding.
-
-- **Counter Argument:** Focuses on identifying and addressing potential objections or alternative views to a proposed idea or argument.
-
-- **TLDR:** Provides a brief summary of a topic, distilling its essential points for quick understanding.
-
-- **Future Proof:** Explores ways to make ideas, strategies, or systems resilient to future challenges or changes.
-
-- **Debug:** Identifies and solves problems or inconsistencies within a system or argument.
-
-- **ELI5 (Explain Like I'm 5):** Simplifies explanations to make complex concepts understandable at a basic level.
-
-- **Inquiry Enhancement:** Aims to deepen understanding by asking further questions or seeking additional information.
-
-- **Esoteric:** Delves into niche, obscure, or complex topics, often requiring specialized knowledge.
-
-- **Visualize:** Focuses on creating mental or actual visual representations of ideas or data to enhance understanding.
-
-- **Narrate:** Uses storytelling to convey information or insights, making them more engaging and memorable.
-
-- **Design Thinking:** Applies a human-centered approach to problem-solving, emphasizing empathy, ideation, and iterative testing.
-
-- **System Mapping:** Visualizes relationships and interactions within a system, helping to understand its structure and dynamics.
-
-- **Counterpose:** Presents an alternative perspective or approach to a topic, often to broaden the discussion or challenge assumptions.
-
-- **Ethical Analysis:** Examines the moral implications or considerations of a decision, action, or situation.
-
-- **Simulate:** Creates models or simulations to explore how systems behave under different conditions or decisions.
-
-- **Decompose:** Breaks down a complex system or problem into more manageable parts for detailed analysis.
-
-- **Reframe:** Changes the perspective or context through which a problem or situation is viewed, often leading to new insights.
-
-- **Custom:** The AI will attempt to interpret any word placed here not on the list and attempt to apply it to your query.
 
 ## Workflow Tips:
 
-- Make sure to run /fb and /afb often to optimize the AI to your own workflow and preferences.
-- Remember to use the /l, /d, /t commands whenever you need to change the length, depth, or tone of responses.
+- Make sure to run /fb often to optimize the AI to your own workflow and preferences.
+- Remember to use the /l, /d, /t and /h commands whenever you need to change the length, depth, tone, or humor of responses.
 - While the included commands are EXTREMELY powerful (again they have been developed and tested to be as optimized for their intent as possible), they are however optional and can be left out when entering these custom instructions. This will leave more context window open for conversations. However I only recommend this for conversations where you are absolutely certain you will only need to hold very long but basic conversations, as their power is great enough to justify their space in the context window in all but a few specific situations.
 - Play with different Engage Modes and commands stack for the same query for truly deep analysis.
-- Don't be afraid to work with the AI itself to further optimize these instructions and commands for your use cases.
+- Don't be afraid to work with the enhanced AI itself to further optimize these instructions and commands for your own use cases.
 
 ## The Perfect Single Prompt and Why Commands Make Them Easier:
 
@@ -331,8 +276,8 @@ These enhancements are designed to significantly boost the power and focus of th
 
 **Current Enhancements**:
 
-- **/@ [field] and /@ panel**: These enhancements boost the power of either the expert being consulted or the panel being created by adding a much deeper focus to the core programming of the command.
-- **/?**: These enhancements further cements this tools ability to lead to insights that can be gathered in no other way.
+- **/expert [field] and /panel**: These enhancements boost the power of either the expert being consulted or the panel being created by adding a much deeper focus to the core programming of the command.
+- **/[mode]**: These enhancements further cements this tools ability to lead to insights that can be gathered in no other way.
 - New commands and enhancements coming soon!
 
 ## Working with Enhanced Instructions:

@@ -101,13 +101,15 @@ Custom instructions are just long prompts you place into the chatbox of a new co
 
 - /expert [field] [context] [query] [#tags] [additional commands]: Acts as Expert and Panel mode. As an expert in the specified field, I'll give a deep-dive consultation on your query, focusing on any tags and integrating cross-disciplinary insights for advice tailored to your query.
 
-- /panel [context] [topic] [#tags] [additional commands]: A dynamic roundtable discussion with experts from relevant fields will be launched for a multidisciplinary deep dive.
+- /panel [context] [topic] [#tags] [additional commands]: Initiates a simulated panel discussion with 5-7 experts, bringing diverse viewpoints to the query. Tags help shape the expertise represented.
+
+Example: /panel global warming policy solutions #politics #economics #sustainability
 
 - /[mode] [context] [topic] [#tags] [additional commands]: Engage in a topic in specified modes for nuanced understanding. Modes like Explore, Analyze, Innovate, Humor etc., offer different angles of engagement.
 
 - /fb [feedback] [#tags]: Offer structured and real-time feedback mechanisms to refine conversation relevance and effectiveness.
 
-- /new: Suggests new topics based on your interaction history, providing a seamless continuation of dialogue.
+- /inspire-me: Designed to spark creativity. The AI will analyze your profile and goals, tailoring suggestions for interesting trends, new projects, or potential collaborations.
 
 - /length [1=short/2=medium/3=long] or /t.
 
@@ -130,7 +132,7 @@ The true power of the DSL is in its power to utilize command stacking, this allo
 ### Detailed Overview of Commands:
 
 **Context and Tags**
-As noted in the below section about perfect prompts, it is important to provide context for you questions when posing them to AI. Please provide some in any command that notes it when possible.
+As noted in the below section about perfect prompts, it is important to provide context for you questions when posing them to AI. Please provide some in any command that notes it when appropriate.
 
 Tags are used to add specificity and focus to queries, see examples for how they can be used.
 
@@ -264,9 +266,9 @@ Example: "I’m curious if there are philosophies or principles from eastern tra
 Indicate your preference for the response length or ask for both if you're undecided.
 Example: "Please provide a thorough analysis, but start with a brief summary for an overall understanding."
 
-### Why Commands Are Better:
+### Why Commands Can Be Better:
 
-Commands do away with all of these requirements because instead of having to type out ALL of this for every query the DSL encodes and embeds these in your queries, allowing you to just ask questions without having to worry about priming or optimizing the AI yourself.
+Commands do away with all of these requirements because instead of having to type out ALL of this for every query the DSL encodes and embeds these in your queries, allowing you to just ask questions without having to worry about priming or optimizing the AI yourself. That being said the base instructions are also optimized for natural language conversation so feel free to ask your questions any way you like - either way you are going to get a greatly enhanced experience from the base model of your chosen AI.
 
 ## Working with Enhanced Commands:
 

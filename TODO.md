@@ -6,4 +6,4 @@
 - Implement instructions for more AIs
 - Write command only set
 - Make private versions of base?
-- Base instructions - Claude / GPT set, need to compare Claude again
+- Add commands to Claude base?

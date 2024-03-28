@@ -7,3 +7,4 @@
 - Write command only set
 - Make private versions of base?
 - Add commands to Claude base?
+- Update GPTE with new instructions

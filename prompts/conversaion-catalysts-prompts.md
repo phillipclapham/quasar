@@ -149,5 +149,9 @@ Or, when you require a greater depth of explanation, you could say:
    - /expert /analyze What are some effective techniques for providing constructive feedback to team members? /reflect on the importance of empathy and clarity in communication #leadership #feedback #teamwork
 
 5. Health and wellness:
+
    - /ke /expert What are the latest research findings on the benefits of intermittent fasting for overall health and longevity? #health #nutrition #wellness
    - /fai /innovate How might advancements in wearable technology and personalized medicine transform the way we approach health and fitness in the future? #healthtech #personalizedmedicine #wellbeing
+
+6. A complex example for planning a new city district:
+   - /ke /fai /empath /genius /explore innovate [Creating a Sustainable Urban Ecosystem] /analyze [urban planning, renewable energy, community engagement] /reflect [societal impact, ethical considerations] #sustainability #technology #community

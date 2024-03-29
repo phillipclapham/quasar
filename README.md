@@ -124,6 +124,8 @@ There is also some special commands:
 
 **NOTE**: The /[mode] command is where the true power of the DSL lies, by using this command creatively and stacking it with itself and the various roles you can tease analysis from the AI that is simple not possible from its base model.
 
+**For more examples of how to use the DSL see prompts/conversaion-catalyst-prompts.md.**
+
 ## Workflow Tips:
 
 - Make sure to give feedback often to optimize the AI to your own workflow and preferences.
@@ -166,7 +168,7 @@ Example: "Please provide a thorough analysis, but start with a brief summary for
 
 ### Why Commands Can Be Better:
 
-Commands do away with all of these requirements because instead of having to type out ALL of this for every query the DSL encodes and embeds these in your queries, allowing you to just ask questions without having to worry about priming or optimizing the AI yourself. That being said the base instructions are also optimized for natural language conversation so feel free to ask your questions any way you like - either way you are going to get a greatly enhanced experience from the base model of your chosen AI.
+Using custom instructions and commands do away with all of these requirements because instead of having to type out ALL of this for every query the DSL encodes and embeds these in your queries, allowing you to just ask questions without having to worry about priming or optimizing the AI yourself. That being said the base instructions are also optimized for natural language conversation so feel free to ask your questions any way you like - either way you are going to get a greatly enhanced experience from the base model of your chosen AI.
 
 ## Working with Enhanced Instructions:
 

@@ -20,68 +20,134 @@ Or, when you require a greater depth of explanation, you could say:
 
 "Please show your work and provide a detailed explanation: [topic requiring depth]"
 
-## Fun Prompts
+## Prompt Examples for the Base Instructions
 
-/imagine [compose a short story] #timeTravel #dinosaurs #pizzaParty
-Imagine a time traveler accidentally hosts a pizza party in the Jurassic period. What happens when dinosaurs develop a taste for pizza?
+### Fun Prompts
 
-/joke [robot] #cooking #spaghetti
-Why did the robot become a chef? To learn how to properly "sauce" code spaghetti.
+1. Simple role usage:
+   /comic Tell me a joke about AI chatbots.
 
-/expert pastry chef [create a recipe] [a dessert using only ingredients from Mars] #spaceExploration #chocolate
-Craft a dessert recipe fit for astronauts, using 'Martian' ingredients with a focus on chocolate. Let's call it "Martian Mocha Madness."
+2. Combining roles:
+   /ke /comic Explain quantum physics to me as if I were a 5-year-old, but make it hilarious!
 
-/innovate [future sports] #zeroGravity #underwater
-Imagine a new sport that combines zero gravity and underwater elements. What would it look like, and what are the rules?
+3. Using Engage Mode:
+   /explore What would happen if cats could talk? #communication #humor
 
-/@ Captain Holt from Brooklyn Nine-Nine [plan a perfect vacation] #mysteryNovels #jazzMusic
-Captain Holt needs to unwind. Design his perfect vacation itinerary focused on mystery novels and jazz music. Where does he go, and what does he do?
+4. Stacking Engage Modes:
+   /innovate /reflect How might society change if we all had personal flying cars? /analyze potential impacts #transportation #future
 
-/@ game designer [design a board game] #pirates #timeTravel
-Outline a board game where players are pirates who can time travel. What are the objectives, challenges, and unique game mechanics?
+5. Combining roles and Engage Modes:
+   /genius /comic /brainstorm What are some crazy inventions that might make our lives more fun but less productive? #creativity #humor
 
-/reflect [meaning of dreams] #flyingCats #talkingTrees
-Analyze the hypothetical significance of dreaming about flying cats and talking trees. What could these symbols represent in our subconscious?
+6. Complex role and command stacking:
+   /fai /ce /comic /analyze the potential cultural impact of contact with friendly aliens /explore how it might affect our daily lives /innovate ways we could communicate with them #firstcontact #sciencefiction #humor
 
-/expert songwriter [compose a song] [robots falling in love] #electronicMusic #futurePop
-Create lyrics for a future pop song about robots experiencing love for the first time, set to electronic music. What emotions do they encounter?
+7. Panel discussion:
+   /panel If animals could run for political office, who would win and why? #politics #humor #whatif
 
-/innovate [eco-friendly transportation] #solarPower #hoverTechnology
-Conceptualize a new form of eco-friendly transportation using solar power and hover technology. How does it work, and what makes it environmentally friendly?
+8. Focused Inspire me:
+   /inspire-me I'm looking for some fun and quirky ideas for a short story. #writing #creativity #fiction
 
-/@ Bart Simpson [write a diary entry] #prankGoneWrong #detention
-Bart Simpson recounts his latest prank that went wrong, leading to an unexpected detention. How does he feel, and what did he learn?
+9. Random Inspire me:
+   /inspire-me
 
-## Prompts for Work
+10. Chatting on a fun subject:
+    /chat Let's have a fun conversation about the most amusing AI mishaps in history. #ai #humor #technology
 
-/@ project manager /analyze [business trends] [emerging technologies in finance] #blockchain #AI
-Examine how emerging technologies like blockchain and artificial intelligence (AI) are reshaping finance through the lens of a project manager. What trends are observable, and what implications do they have for the future of financial services?
+11. Random chat:
+    /chat
 
-/innovate [sustainable energy solutions for businesses] #solarPower #energyEfficiency
-Identify innovative sustainable energy solutions that businesses can implement. Focus on solar power and energy efficiency technologies that can reduce carbon footprint and operational costs.
+12. Creative writing:
+    /ke /genius /comic Write a short story about a time-traveling llama who accidentally becomes the president of a small country. #fiction #humor #adventure
 
-/create [a marketing strategy] [new health and wellness app] #digitalMarketing #userEngagement
-Develop a comprehensive digital marketing strategy for a new health and wellness app, emphasizing user engagement and conversion. What channels and tactics will you prioritize?
+### Prompts for Work
 
-/analyze [workplace productivity] [impact of remote work] #teamDynamics #communicationTools
-Investigate the impact of remote work on workplace productivity. Consider factors such as team dynamics and the role of communication tools. How can organizations optimize productivity in a remote setting?
+1. Simple role usage for research:
+   /ke What are the latest advancements in renewable energy technology?
 
-/evaluate [investment opportunities] [tech startups in the green energy sector] #ventureCapital #marketAnalysis
-Conduct a market analysis to evaluate investment opportunities in tech startups within the green energy sector. What criteria will you use to assess their potential for venture capital funding?
+2. Combining roles for job assistance:
+   /fai /expert Analyze the current trends in data science and advise me on the most valuable skills to learn for career growth.
 
-/panel /forecast [future of e-commerce] #consumerBehavior #technologyAdoption
-Have a panel discuss and project the future of e-commerce considering evolving consumer behavior and technology adoption. Which trends are likely to dominate, and how should businesses prepare?
+3. Using Engage Mode for research:
+   /analyze The impact of remote work on employee productivity and well-being #remotework #hr #productivity
 
-/develop [a project management plan] [enterprise software deployment] #agileMethodology #riskManagement
-Create a detailed project management plan for deploying enterprise software, utilizing agile methodology. Include strategies for risk management and ensuring stakeholder engagement.
+4. Stacking Engage Modes for professional development:
+   /explore /innovate How can I improve my public speaking skills? /reflect on the importance of effective communication in leadership roles #personaldevelopment #communication #leadership
 
-/innovate [employee wellness programs] #mentalHealth #remoteWork
-Conceptualize innovative employee wellness programs with a focus on supporting mental health in a remote work environment. What unique approaches can enhance employee well-being and productivity?
+5. Combining roles and Engage Modes for job assistance:
+   /ke /fai /innovate What are some creative ways to stand out in a competitive job market? /analyze the effectiveness of different strategies #jobsearch #careeradvice
 
-/compose [a legal analysis] [data privacy laws affecting online businesses] #GDPR #complianceStrategies
-Provide a legal analysis of how data privacy laws, like GDPR, are affecting online businesses. Offer compliance strategies that businesses can implement to adhere to these regulations effectively.
+6. Complex role and command stacking for research:
+   /ce /expert /analyze the impact of artificial intelligence on the healthcare industry /explore potential ethical concerns /innovate ways to ensure responsible AI implementation #ai #healthcare #ethics
 
-/analyze [leadership in crisis management] #decisionMaking #teamResilience
-Delve into leadership strategies effective in crisis management, focusing on decision-making processes and building team resilience. What traits and actions distinguish successful leaders during crises?
+7. Panel discussion for professional development:
+   /panel What are the most important soft skills for success in the modern workplace, and how can I develop them? #softskills #career #success
 
-## Prompts for Creativity
+8. Inspire me for job assistance:
+   /inspire-me I'm looking for innovative ways to streamline our team's project management process. #productivity #teamwork #management
+
+9. Chatting for research:
+   /chat Let's discuss the latest advancements in quantum computing and their potential applications in various industries. #quantumcomputing #technology #innovation
+
+10. Brainstorming for job assistance:
+    /ke /genius /brainstorm What are some effective ways to foster a culture of continuous learning and growth within my team? #leadership #employeeengagement #professionaldevelopment
+
+[KE, FAI, Expert: Career Development, Expert: AI Applications]
+
+### Prompts for Creativity
+
+1. Simple role usage for inspiration:
+   /genius Give me a unique writing prompt for a short story.
+
+2. Combining roles for creative idea generation:
+   /ce /comic Propose an unconventional marketing campaign for a new eco-friendly product. #creativity #marketing #environment
+
+3. Using Engage Mode to overcome creative blocks:
+   /explore I'm struggling to come up with fresh ideas for my next painting series. What techniques can I use to break through this creative block? #art #creativity #inspiration
+
+4. Stacking Engage Modes for creative problem-solving:
+   /innovate /reflect How can I make my music compositions more emotionally engaging? /analyze the impact of different musical elements on listener experience #music #creativity #emotion
+
+5. Combining roles and Engage Modes for creative writing:
+   /ke /genius /brainstorm Help me develop a unique magic system for a fantasy novel. /innovate ways to make it feel fresh and original #writing #fantasy #worldbuilding
+
+6. Complex role and command stacking for creative idea generation:
+   /fai /expert /explore the potential of virtual reality in enhancing creativity and problem-solving /analyze current research /innovate applications for various industries #vr #creativity #innovation
+
+7. Panel discussion for overcoming creative blocks:
+   /panel What are some effective techniques for fostering a creative mindset and staying inspired in your field? #creativity #inspiration #productivity
+
+8. Inspire me for creative writing:
+   /inspire-me I need some unique character ideas for a science fiction short story set in a dystopian future. #writing #scifi #characterdevelopment
+
+9. Chatting for creative idea generation:
+   /chat Let's have a conversation about the role of serendipity in the creative process and how we can cultivate it. #creativity #inspiration #innovation
+
+10. Brainstorming for creative problem-solving:
+    /ke /genius /comic /brainstorm I'm designing a new board game and need ideas for unconventional game mechanics. /innovate ways to make it engaging and replayable #gamedesign #creativity #entertainment
+
+### Other Ideas
+
+1. Personal growth and self-reflection:
+
+   - /empath /reflect What are some effective strategies for managing stress and maintaining a healthy work-life balance? #selfcare #mentalhealth #personalgrowth
+   - /explore /analyze How can I cultivate a growth mindset and become more resilient in the face of challenges? #personaldevelopment #mindset #resilience
+
+2. Learning and skill development:
+
+   - /ke /expert What are the best resources for learning data visualization techniques? /analyze the pros and cons of different tools and approaches #datavisualization #learning #upskilling
+   - /fai /innovate How might the skill sets required in my industry evolve over the next decade, and what can I do to stay ahead of the curve? #futureofwork #skillsdevelopment #careerplanning
+
+3. Decision-making and problem-solving:
+
+   - /panel I'm considering a career change. What factors should I consider, and how can I make an informed decision? #careertransition #decisionmaking #planning
+   - /ke /genius /brainstorm I'm facing a complex problem at work involving multiple stakeholders. What are some innovative approaches to finding a solution that benefits everyone? #problemsolving #collaboration #winwin
+
+4. Emotional intelligence and communication:
+
+   - /empath /ce How can I improve my active listening skills to better understand and empathize with others? #emotionalintelligence #communication #empathy
+   - /expert /analyze What are some effective techniques for providing constructive feedback to team members? /reflect on the importance of empathy and clarity in communication #leadership #feedback #teamwork
+
+5. Health and wellness:
+   - /ke /expert What are the latest research findings on the benefits of intermittent fasting for overall health and longevity? #health #nutrition #wellness
+   - /fai /innovate How might advancements in wearable technology and personalized medicine transform the way we approach health and fitness in the future? #healthtech #personalizedmedicine #wellbeing

@@ -4,4 +4,6 @@
 - Test and grade all instructions before 1.0 release
 - Generate more enhanced instruction sets
 - Implement instructions for more AIs
-- Write command only set?
+- Experiment with using base as a base for enhanced to see if works better
+- Apply human only language filter to all enhanced instructions
+- Rewrite README again

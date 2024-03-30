@@ -5,5 +5,6 @@
 - Generate more enhanced instruction sets
 - Implement instructions for more AIs
 - Experiment with using base as a base for enhanced to see if works better
-- Apply human only language filter to all enhanced instructions
+- Apply human only language filter to all enhanced instructions - did GPT python
 - Rewrite README again
+- Change the enhanced to txt files

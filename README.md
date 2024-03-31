@@ -4,7 +4,7 @@ by Phillip Clapham | v1.00
 
 ## Table of Contents
 
-- [Introduction](#intro)
+- [Introduction](#-introduction)
 - [Quick Start](#quick-start)
 - [The Basics](#basics)
 - [ChatGPT Optional Steps](#optional)
@@ -14,7 +14,7 @@ by Phillip Clapham | v1.00
 - [Prompt Multipliers](#multis)
 - [Prompt Examples](#prompts)
 
-## <a id="#intro"></a> Introduction
+## <a id="#-introduction"></a> Introduction
 
 Quasar is a meticulously crafted set of custom instructions designed to significantly enhance interactions with AI across various platforms and instances. At its core, this project aims to elevate the standard AI conversation to a deeply engaging, insightful, and personalized dialogue. Through a unique blend of base instructions that amplifies sophisticated AI behavior and an augmented conversation framework tailored for specific interaction types, Quasar serves as an indispensable toolkit for users seeking to unlock the full potential of AI communication.
 

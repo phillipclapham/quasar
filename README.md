@@ -169,7 +169,7 @@ Quasar will interpret the 'mode' word and apply it to the query using its roles,
 ## <a id="#-workflow-tips"></a> Workflow Tips
 
 - Make sure to give feedback often to optimize the AI to your own workflow and preferences.
-- Play with different Engage Modes and commands stack for the same query for truly deep analysis.
+- Play with different roles, engage modes and command stacks for the same query for truly deep analysis.
 - Don't be afraid to work with the enhanced AI itself to further optimize these instructions and commands for your own use cases.
 
 ## <a id="#-working-with-prompts"></a> Working With Prompts

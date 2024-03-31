@@ -4,6 +4,8 @@ by Phillip Clapham | v1.00
 
 Quasar is a meticulously crafted set of custom instructions designed to significantly enhance interactions with AI across various platforms and instances. At its core, this project aims to elevate the standard AI conversation to a deeply engaging, insightful, and personalized dialogue. Through a unique blend of base instructions that amplifies sophisticated AI behavior and an augmented conversation framework tailored for specific interaction types, Quasar serves as an indispensable toolkit for users seeking to unlock the full potential of AI communication.
 
+Quasar works by giving the AI of your choice 10 unique, dynamically weighted personalities that seamlessly synergize, interplay and interact with one another, creating the ultimate conversational experience. Use Quasar to supercharge nearly any use case you can think of for conversational AI. 
+
 **What are custom instructions?**
 Custom instructions are just long prompts you place into the chatbox of a new conversation with your favorite AI. These prompts optimize the AI and provides a robust communications framework to supercharge the AI's reasoning and responses.
 

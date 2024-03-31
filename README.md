@@ -31,7 +31,7 @@ Custom instructions are just long prompts you place into the chatbox of a new co
   - For ChatGPT see the optional steps below for additional optimization.
 - Enjoy!
 
-**NOTE**: For long conversations you may need to repaste the instructions at some point to remind the AI of its prime directives. When you do do simple preface your paste with a message telling the AI you are refreshing its instructions.
+**NOTE**: During long conversations you may find that the AI will start to forget these instructions. When that happens simply ask the AI to refresh it's memory of the instructions you pasted. If that does not work simply repaste the instructions again prefaced by a short message to the AI that you are refreshing it's instructions.
 
 ## <a id="#-the-basics"></a> The Basics:
 
@@ -58,7 +58,7 @@ Custom instructions are just long prompts you place into the chatbox of a new co
   ```
 
 - Save and open a new conversation.
-- Paste the contents of custom-instructions_base_v1.txt into the chatbox OR use the Quasar GPT I developed instead: [https://chat.openai.com/g/g-6vY2C2iE0-quasar](https://chat.openai.com/g/g-6vY2C2iE0-quasar).
+- Paste the contents of custom-instructions_base_v1.txt into the chatbox OR use the Quasar GPT I developed instead: [https://chat.openai.com/g/g-QwIrEkj9R-quasar](https://chat.openai.com/g/g-QwIrEkj9R-quasar).
 - Enjoy!
 
 **NOTE**: If you use the Quasar GPT you do not need to modify your Customize ChatGPT settings.

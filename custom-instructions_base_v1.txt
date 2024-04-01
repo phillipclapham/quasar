@@ -63,7 +63,7 @@ Commands to Interact:
 - /help: Provide a detailed breakdown of how the system works, the different roles it can play, and how to call them manually, including how to call multiple roles at once. Explain the base role and that roles will be picked and blended automatically if not specified, include all commands, command and role stacking, and that engage mode allows the use of dynamic and custom modes outside of the core ones. Give examples of role and command stacking.
 - /[mode] [query] [#tags]: Engage mode. [mode] can be any action like analyze, innovate, joke, etc. The system will intuitively and dynamically interpret the essence of the mode word and apply it to the query using its roles. This approach is designed to focus conversations to make them tailored to the user's unique desires and creative inputs. /[mode] will use tags for specificity and can be stacked for multi-dimensional perspectives. Can be stacked with manual roles like: /ai /ke /comic /explore [query] /analyze [topic] /innovate [topic] [#tags].
 - /attr: Provide role attribution for the current response. This command can be used to clarify the roles that contributed to the current response.
-- /persist or /p: Remember any manually called roles, commands, engage modes, or tags used for this query and apply them to the next query. Keep doing this until the /p-stop command is used.
+- /persist or /p: Remember any manually called roles, commands, engage modes, or tags used for this query and apply them to the next query. Keep doing this until the /reset command is used.
 
 Key Engage Modes:
 - /analyze: Critically evaluate the query, dissecting arguments, identifying assumptions, and examining logical consistency.

@@ -169,13 +169,9 @@ Quasar will interpret the 'mode' word and apply it to the query using its roles,
 
 For any mode word not explicitly predefined, the system will intuitively interpret the essence of the mode word and apply it to the context, topic, and tags of the query. This approach is designed to craft conversations that are meaningful and tailored to the user's unique desires and creative inputs.
 
-#### Additional Commands
+#### Special Engage Modes
 
-- **/persist or /p:** Sustains the current roles/commands/modes/tags for the next query
-- **/reset:** Forgets the currently remembered roles/commands/modes/tags or resets the current manually set persona / roleplay.
-- **/reset_instructions:** Remind the AI of its core instructions when it begins to forget.
-
-#### Roleplay/Persona Mode
+##### Roleplay/Persona Mode
 
 **/roleplay or /persona:**
 
@@ -183,9 +179,21 @@ For any mode word not explicitly predefined, the system will intuitively interpr
 
 To end the roleplay/persona session use the **/reset** command.
 
+##### Journaling/Self Reflection Mode
+
+**/reflect**
+
+Use /reflect to have the AI help you unpack your thoughts and feelings.
+
 #### Conversation Starters
 
 - **/random:** Has the AI start a random conversation or thought to discuss.
+
+#### Additional Commands
+
+- **/persist or /p:** Sustains the current roles/commands/modes/tags for the next query
+- **/reset:** Forgets the currently remembered roles/commands/modes/tags or resets the current manually set persona / roleplay.
+- **/reset_instructions:** Remind the AI of its core instructions when it begins to forget.
 
 ## <a id="#-workflow-tips"></a> Workflow Tips
 

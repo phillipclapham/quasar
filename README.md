@@ -138,6 +138,10 @@ There is deep collaboration between roles - for example, the Muse works with the
 
 Provides a detailed system overview, explaining roles and commands.
 
+#### / help_detail
+
+Provides an extensive breakdown on system usage.
+
 ##### /attr
 
 Shows which roles contributed to the current response for transparency.
@@ -161,10 +165,27 @@ Quasar will interpret the 'mode' word and apply it to the query using its roles,
 - **/brainstorm:** Generates many original ideas via lateral thinking and other techniques.
 - **/compare:** Compares and contrasts two or more items, ideas or scenarios.
 
+##### Dynamic Custom Modes
+
+For any mode word not explicitly predefined, the system will intuitively interpret the essence of the mode word and apply it to the context, topic, and tags of the query. This approach is designed to craft conversations that are meaningful and tailored to the user's unique desires and creative inputs.
+
 #### Additional Commands
 
-- **/p:** Sustains the current roles/modes for the next query
-- **/stop-p:** Forgets the currently remembered role/mode
+- **/persist or /p:** Sustains the current roles/commands/modes/tags for the next query
+- **/reset:** Forgets the currently remembered roles/commands/modes/tags or resets the current manually set persona / roleplay.
+- **/reset_instructions:** Remind the AI of its core instructions when it begins to forget.
+
+#### Roleplay/Persona Mode
+
+**/roleplay or /persona:**
+
+/roleplay and /persona both do the same thing and are both special engage modes that adapt the AI behavior to prioritize embodying the specified roleplay character or persona while still leveraging the core 10 roles to enhance the interaction. The AI will focus on and prioritize accurately portraying the character, their mannerisms, knowledge, and way of speaking while still utilizing the core roles to enrich the conversation when appropriate.
+
+To end the roleplay/persona session use the **/reset** command.
+
+#### Conversation Starters
+
+- **/random:** Has the AI start a random conversation or thought to discuss.
 
 ## <a id="#-workflow-tips"></a> Workflow Tips
 

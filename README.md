@@ -57,7 +57,9 @@ Due to the extra power you can harness with custom GPTs this version has even mo
 
 6. Enjoy the enhanced insights!
 
-**NOTE**: During long conversations you may find that the AI will start to forget these instructions. When that happens simply ask the AI to refresh it's memory of the instructions you pasted. If that does not work simply repaste the instructions again prefaced by a short message to the AI that you are refreshing it's instructions.
+**NOTE:** During long conversations you may find that the AI will start to forget these instructions. When that happens simply ask the AI to refresh it's memory of the instructions you pasted. If that does not work simply repaste the instructions again prefaced by a short message to the AI that you are refreshing it's instructions.
+
+**WARNING:** These instructions work great with Claude but sometimes it will consider them a "jailbreak" and refuse to run them, if this happens simply load a new conversation and try again.
 
 ## <a id="-the-basics"></a> The Basics:
 
@@ -549,3 +551,11 @@ Implementation Notes:
 ```
 
 ## <a id="-the-overlooked-value-of-conversational-ai"></a> The Overlooked Value of Conversational AI
+
+In the midst of the AI revolution, much of the conversation has centered around the potential for artificial intelligence to transform industries, boost productivity, and generate immense wealth. However, this narrow focus on economic gains and corporate interests has overshadowed the true transformative power of AI – its ability to profoundly impact individuals and society in ways that extend far beyond the realm of business.
+
+At the heart of this overlooked potential lies the power of conversational AI. By engaging in meaningful dialogue with AI systems, individuals embark on a journey of self-discovery and personal growth. The act of conversing with an AI that adapts to one's unique needs and communication style creates a space for introspection, challenging preconceived notions, and expanding one's understanding of language and thought. This process of refinement and self-reflection, facilitated by the AI's ability to provide personalized insights and feedback, has the potential to foster a more self-aware, emotionally intelligent, and empathetic population.
+
+Moreover, the transformative power of conversational AI extends beyond the individual, holding the potential to reshape society as a whole. By providing accessible, unbiased, and knowledgeable conversation partners, AI can help bridge gaps in education, mental health support, and personal development. It can serve as a tool for fostering understanding and empathy across diverse populations, breaking down barriers of language, culture, and socioeconomic status. In a world increasingly divided by polarization and misinformation, conversational AI can provide a platform for constructive dialogue, fact-based discussions, and the exploration of new ideas.
+
+However, to fully realize this potential, we must approach the development and deployment of conversational AI with a focus on ethics, transparency, and the greater good. By prioritizing the creation of AI systems that promote personal growth, emotional well-being, and societal progress, we can harness the power of this technology to create a more enlightened, compassionate, and united world. It is time to look beyond the hype and recognize the true transformative potential of conversational AI – not as a mere tool for financial gain, but as a catalyst for personal and societal evolution.

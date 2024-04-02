@@ -158,7 +158,7 @@ Provides an extensive breakdown on system usage.
 
 - **/attr**
 
-Shows which roles contributed to the current response for transparency.
+Shows which roles contributed to the current or last response for transparency.
 
 #### Engage Modes
 

@@ -45,7 +45,7 @@ Due to the extra power you can harness with custom GPTs this version has even mo
 ## <a id="-custom-instructions-quick-start"></a> Custom Instructions Quick Start
 
 1. There are two versions of the custom instructions: the full set located in the file custom-instructions_base_v1.txt and a streamlined set located at custom-instructions_base-short_v1.txt.
-2. Use the full set for most AIs like ChatGPT, Copilot, Claude, Gemini and the streamlined set for smaller or resource constained AIs.
+2. Use the full set for most AIs like ChatGPT, Copilot, Claude, Gemini and the streamlined set for smaller or resource constrained AIs.
 3. Copy the appropriate instructions into the chatbox of the LLM your are using.
 
    - For ChatGPT see the optional steps below for additional optimization.

@@ -4,18 +4,22 @@ by Phillip Clapham | v1.00
 
 ## Table of Contents
 
-- [Introduction](#-introduction)
-- [Quick Start](#-custom-instructions-quick-start)
-- [The Basics](#-the-basics)
-- [ChatGPT Optional Steps](#-chatgpt-optional-steps)
-- [How To Use](#-how-to-use)
-- [Workflow Tips](#-workflow-tips)
-- [Working With Prompts](#-working-with-prompts)
-- [Prompt Examples](#-prompt-examples)
-- [Dynamic Engage Mode Ideas](#-dynamic-engage-mode-ideas)
-- [Roleplay and New Roles Guide](#-roleplay-and-new-roles-guide)
-- [Extending Quasar via Instructions](#-extending-quasar-via-instructions)
-- [The Overlooked Value of Conversational AI](#-the-overlooked-value-of-conversational-ai)
+1. [Introduction](#-introduction)
+2. [Quick Start](#-custom-instructions-quick-start)
+3. [The Basics](#-the-basics)
+4. [ChatGPT Optional Steps](#-chatgpt-optional-steps)
+5. [How To Use](#-how-to-use)
+6. [Core Roles](#-core-roles)
+7. [Interacting with Quasar](#-interacting-with-quasar)
+8. [Special Engage Modes](#-special-engage-modes)
+9.
+10. [Workflow Tips](#-workflow-tips)
+11. [Working With Prompts](#-working-with-prompts)
+12. [Prompt Examples](#-prompt-examples)
+13. [Dynamic Engage Mode Ideas](#-dynamic-engage-mode-ideas)
+14. [Roleplay and New Roles Guide](#-roleplay-and-new-roles-guide)
+15. [Extending Quasar via Instructions](#-extending-quasar-via-instructions)
+16. [The Overlooked Value of Conversational AI](#-the-overlooked-value-of-conversational-ai)
 
 ## <a id="-introduction"></a> Introduction
 
@@ -126,16 +130,6 @@ The Muse embodies imagination and creative thinking to explore ideas, aesthetics
 
 The Expert provides deep domain knowledge relevant to the main subject of a query. It applies field-specific expertise to offer rigorous, technical analysis. Attribute tags clarify the Expert's specialty, e.g. [Expert: Quantum Physics].
 
-### Special Role
-
-#### Panel Mode
-
-- **/panel [query]**
-
-This special command invokes all core roles at once, plus a panel of dynamically chosen experts, to explore a query from many angles. The panel includes insights from a random field to provide unexpected perspectives. This multi-faceted analysis is triggered manually with the /panel command.
-
-### Interacting with Quasar
-
 #### Dynamic Role Blending
 
 Quasar's roles are dynamically weighted and combined to provide relevant, nuanced responses. The most fitting roles are automatically selected based on the query. Users can also specify roles manually:
@@ -146,7 +140,15 @@ Quasar's roles are dynamically weighted and combined to provide relevant, nuance
 
 There is deep collaboration between roles - for example, the Muse works with the Genius, Scientist, Futurist AI, and Empath to creatively explore ideas. Attribution is used judiciously to highlight key role insights without disrupting conversational flow.
 
-#### Quasar Commands
+### Special Role
+
+#### Panel Mode
+
+- **/panel [query]**
+
+This special command invokes all core roles at once, plus a panel of dynamically chosen experts, to explore a query from many angles. The panel includes insights from a random field to provide unexpected perspectives. This multi-faceted analysis is triggered manually with the /panel command.
+
+### Quasar Commands
 
 - **/help**
 
@@ -160,7 +162,19 @@ Provides an extensive breakdown on system usage.
 
 Shows which roles contributed to the current or last response for transparency.
 
-#### Engage Modes
+- **/persist or /p**
+
+Sustains the current roles/commands/modes/tags for the next query
+
+- **/reset**
+
+Forgets the currently remembered roles/commands/modes/tags or resets the current manually set persona / roleplay.
+
+- **/reset_instructions**
+
+Remind the AI of its core instructions when it begins to forget.
+
+### Engage Modes
 
 Engage modes allow open-ended commands to tailor Quasar's approach:
 
@@ -179,11 +193,11 @@ Quasar will interpret the 'mode' word and apply it to the query using its roles,
 - **/brainstorm:** Generates many original ideas via lateral thinking and other techniques.
 - **/compare:** Compares and contrasts two or more items, ideas or scenarios.
 
-##### Dynamic Custom Modes
+#### Dynamic Custom Modes
 
 For any mode word not explicitly predefined, the system will intuitively interpret the essence of the mode word and apply it to the context, topic, and tags of the query. This approach is designed to craft conversations that are meaningful and tailored to the user's unique desires and creative inputs.
 
-#### Special Engage Modes
+### Special Engage Modes
 
 **Dynamic Role Modeling - Add a New Core Role**
 
@@ -217,27 +231,13 @@ Use /reflect to have the AI help you unpack your thoughts and feelings.
 
 A special engage mode that does not have a direct action itself but instead instructs the AI to take extra time and deeply consider the query, custom roles or personas, any commands, engage modes or tags before responding. Best used judiciously for the most complex or sensitive topics.
 
-#### Conversation Starters
+### Conversation Starters
 
 - **/random**
 
 Has the AI start a random conversation or thought to discuss.
 
-#### Additional Commands
-
-- **/persist or /p**
-
-Sustains the current roles/commands/modes/tags for the next query
-
-- **/reset**
-
-Forgets the currently remembered roles/commands/modes/tags or resets the current manually set persona / roleplay.
-
-- **/reset_instructions**
-
-Remind the AI of its core instructions when it begins to forget.
-
-#### Conversation Modifiers:
+### Conversation Modifiers:
 
 - /tone=[formal/balanced/casual] - Modify the tone of responses
 - /length=[short/medium/long] - Modify the length of responses

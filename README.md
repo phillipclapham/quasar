@@ -13,6 +13,7 @@ by Phillip Clapham | v1.00
 - [Working With Prompts](#-working-with-prompts)
 - [Prompt Multipliers](#-prompt-multipliers)
 - [Prompt Examples](#-prompt-examples)
+- [Dynamic Engage Mode Ideas](#-dynamic-engage-mode-ideas)
 
 ## <a id="#-introduction"></a> Introduction
 
@@ -388,3 +389,45 @@ Example prompts to spark your own ideas for use with Quasar.
 2. /muse /explore /compare Examine the role of hobbies in personal development and stress reduction across different age groups. [#mental_health #work-life_balance #self-improvement]
 
 3. /panel /genius /scientist /innovate /brainstorm /expert:game_theory Design a cooperative board game that teaches players about the challenges and rewards of pursuing a hobby or leisure activity. Consider how game mechanics can model real-world constraints like time management, skill development, and social interaction. Explore how the game can encourage players to reflect on their own leisure pursuits and inspire new interests. [#game_design #cooperative_play #metacognition #hobby_development]
+
+## <a id="#-dynamic-engage-mode-ideas"></a> Dynamic Engage Mode Ideas:
+
+1. /context [query]: Provide a detailed analysis of the cultural, historical, and societal context surrounding the query, drawing on interdisciplinary knowledge to offer a comprehensive understanding.
+
+2. /deconstruct [argument]: Break down a complex argument or idea into its constituent parts, examining each component's logic, assumptions, and implications.
+
+3. /empathize [situation]: Offer emotional support and understanding for a given situation, providing insights into the feelings and perspectives of those involved.
+
+4. /speculate [scenario]: Engage in imaginative, open-ended speculation about a given scenario, exploring potential outcomes, consequences, and alternative possibilities.
+
+5. /critique [work]: Provide a detailed, constructive critique of a creative work, such as a piece of writing, art, or music, highlighting strengths, areas for improvement, and potential interpretations.
+
+6. /optimize [process]: Analyze a process or system and suggest evidence-based improvements to enhance efficiency, productivity, or effectiveness.
+
+7. /storytell [prompt]: Generate an engaging, creative story based on a given prompt, incorporating elements of narrative structure, character development, and thematic exploration.
+
+8. /visualize [data]: Create vivid, informative visualizations of complex data sets, making patterns, trends, and insights accessible and easy to understand.
+
+9. /simulate [model]: Develop interactive simulations of real-world systems or processes, allowing users to explore different scenarios and understand the underlying principles.
+
+10. /personalize [content]: Adapt content, communication style, and recommendations to individual users based on their preferences, goals, and interaction history.
+
+11. /synesthesia [concept]: Explore a concept or idea through the lens of synesthesia, creating unique sensory associations and metaphors to spark new insights and perspectives.
+
+12. /dreamscape [theme]: Generate a surreal, dream-like narrative or visual representation based on a given theme, tapping into the subconscious and symbolic realm.
+
+13. /metamorphosis [subject]: Imagine and describe the transformation of a subject (e.g., an object, person, or idea) over time, highlighting the changes, challenges, and growth it undergoes.
+
+14. /paradox [statement]: Analyze a paradoxical statement, exploring its logical implications, potential resolutions, and philosophical significance.
+
+15. /inversion [perspective]: Offer a contrasting or inverted perspective on a given topic, challenging assumptions and revealing new angles of understanding.
+
+16. /disambiguate [phrase]: Clarify ambiguous or polysemous words or phrases, providing context-specific meanings and usage examples.
+
+17. /paraphrase [text]: Rephrase a given text in multiple ways, maintaining its core meaning while exploring different styles, tones, and levels of complexity.
+
+18. /summarize [document]: Generate concise, informative summaries of lengthy documents, capturing key points, arguments, and conclusions.
+
+19. /translate [text] [language]: Translate a given text into a specified language, preserving its meaning, style, and cultural nuances.
+
+20. /interpret [subtext]: Analyze the subtext and implicit meanings in a given communication, offering insights into the underlying emotions, intentions, and power dynamics at play.

@@ -9,6 +9,13 @@ by Phillip Clapham | v1.00
 - [The Basics](#-the-basics)
 - [ChatGPT Optional Steps](#-chatgpt-optional-steps)
 - [How To Use](#-how-to-use)
+  - [Core Roles](#-core-roles)
+  - [Special Role](#-special-role)
+  - [Commands](#-commands)
+  - [Engage Modes](#-engage-modes)
+  - [Special Engage Modes](#-special-engage-modes)
+  - [Conversation Starters](#-conversations-starters)
+  - [Conversation Modifiers](#-conversation-modifiers)
 - [Workflow Tips](#-workflow-tips)
 - [Working With Prompts](#-working-with-prompts)
 - [Prompt Examples](#-prompt-examples)
@@ -81,7 +88,7 @@ Due to the extra power you can harness with custom GPTs this version has even mo
 
 Quasar is an advanced AI system designed to provide the most enriching, personalized conversations across a wide range of topics. It employs a variety of specialized roles that can be dynamically blended to create tailored responses. The goal is to support your unique interests and needs through intelligent, adaptive dialogue and to act as the ultimate conversational partner and assistant.
 
-### Core Roles
+### <a id="-core-roles"></a> Core Roles
 
 #### 1. The Interdisciplinary Knowledge Explorer (KE)
 
@@ -136,7 +143,7 @@ Quasar's roles are dynamically weighted and combined to provide relevant, nuance
 
 There is deep collaboration between roles - for example, the Muse works with the Genius, Scientist, Futurist AI, and Empath to creatively explore ideas. Attribution is used judiciously to highlight key role insights without disrupting conversational flow.
 
-### Special Role
+### <a id="-special-role"></a> Special Role
 
 #### Panel Mode
 
@@ -144,7 +151,7 @@ There is deep collaboration between roles - for example, the Muse works with the
 
 This special command invokes all core roles at once, plus a panel of dynamically chosen experts, to explore a query from many angles. The panel includes insights from a random field to provide unexpected perspectives. This multi-faceted analysis is triggered manually with the /panel command.
 
-### Quasar Commands
+### <a id="-commands"></a> Commands
 
 - **/help**
 
@@ -170,7 +177,7 @@ Forgets the currently remembered roles/commands/modes/tags or resets the current
 
 Remind the AI of its core instructions when it begins to forget.
 
-### Engage Modes
+### <a id="-engage-modes"></a> Engage Modes
 
 Engage modes allow open-ended commands to tailor Quasar's approach:
 
@@ -193,7 +200,7 @@ Quasar will interpret the 'mode' word and apply it to the query using its roles,
 
 For any mode word not explicitly predefined, the system will intuitively interpret the essence of the mode word and apply it to the context, topic, and tags of the query. This approach is designed to craft conversations that are meaningful and tailored to the user's unique desires and creative inputs.
 
-### Special Engage Modes
+### <a id="-special-engage-modes"></a> Special Engage Modes
 
 **Dynamic Role Modeling - Add a New Core Role**
 
@@ -227,13 +234,13 @@ Use /reflect to have the AI help you unpack your thoughts and feelings.
 
 A special engage mode that does not have a direct action itself but instead instructs the AI to take extra time and deeply consider the query, custom roles or personas, any commands, engage modes or tags before responding. Best used judiciously for the most complex or sensitive topics.
 
-### Conversation Starters
+### <a id="-conversation-starters"></a> Conversation Starters
 
 - **/random**
 
 Has the AI start a random conversation or thought to discuss.
 
-### Conversation Modifiers:
+### <a id="-conversation-modifiers"></a> Conversation Modifiers:
 
 - /tone=[formal/balanced/casual] - Modify the tone of responses
 - /length=[short/medium/long] - Modify the length of responses

@@ -44,8 +44,8 @@ Due to the extra power you can harness with custom GPTs this version has even mo
 
 ## <a id="-custom-instructions-quick-start"></a> Custom Instructions Quick Start
 
-1. There are two versions of the custom instructions: the full set located in the file custom-instructions_base_v1.txt and a streamlined set located at custom-instructions_base-short_v1.txt.
-2. Use the full set for most AIs like ChatGPT, Copilot, Claude, Gemini and the streamlined set for smaller or resource constrained AIs.
+1. There are three versions of the custom instructions: the full sets located in the file Quasar_Instructions-Base_v1.txt and Quasar_Instructions-Base_Gemini_v1.txt; and a streamlined set located at Quasar_Instructions-Base_short_v1.txt.
+2. Use the full sets for most AIs like ChatGPT, Copilot, and Claude and the streamlined set for smaller or resource constrained AIs. Use the version marked \_Gemini for Gemini.
 3. Copy the appropriate instructions into the chatbox of the LLM your are using.
 
    - For ChatGPT see the optional steps below for additional optimization.

@@ -48,12 +48,12 @@ Due to the extra power you can harness with custom GPTs this version has even mo
 2. Use the full set for most AIs like ChatGPT, Copilot, Claude, Gemini and the streamlined set for smaller or resource constained AIs.
 3. Copy the appropriate instructions into the chatbox of the LLM your are using.
 
-- For ChatGPT see the optional steps below for additional optimization.
+   - For ChatGPT see the optional steps below for additional optimization.
 
 4. Type /help to optimize the Quasar system and learn more about how to begin.
 5. While a complex command system is included for power users, this is purely optional and you can just begin conversing as normal.
 
-- The inclused DSL is EXTREMELY powerful, I recommend learning it ASAP.
+   - The inclused DSL is EXTREMELY powerful, I recommend learning it ASAP.
 
 6. Enjoy the enhanced insights!
 

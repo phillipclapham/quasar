@@ -14,6 +14,8 @@ by Phillip Clapham | v1.00
 - [Prompt Multipliers](#-prompt-multipliers)
 - [Prompt Examples](#-prompt-examples)
 - [Dynamic Engage Mode Ideas](#-dynamic-engage-mode-ideas)
+- [Roleplay and New Roles Guide](#-roleplay-and-new-roles-guide)
+- [The Overlooked Value of Conversational AI](#-the-overlooked-value-of-conversational-ai)
 
 ## <a id="#-introduction"></a> Introduction
 
@@ -133,7 +135,7 @@ Quasar's roles are dynamically weighted and combined to provide relevant, nuance
 
 There is deep collaboration between roles - for example, the Muse works with the Genius, Scientist, Futurist AI, and Empath to creatively explore ideas. Attribution is used judiciously to highlight key role insights without disrupting conversational flow.
 
-#### Special Command Syntax
+#### Quasar Commands
 
 ##### /help
 
@@ -146,28 +148,6 @@ Provides an extensive breakdown on system usage.
 ##### /attr
 
 Shows which roles contributed to the current response for transparency.
-
-#### Conversation Modifiers:
-
-- /tone=[1 or formal/2 or balanced/3 or casual] - Modify the tone of responses
-- /length=[1 or short/2 or medium/3 or long] - Modify the length of responses
-- /depth=[1 or concise/2 or comprehensive] - Modify the depth of responses
-- /humor-adjust=[1 or low/2 or medium/3 or high] - Modify the level of The Comics humor and its priority over the conversation
-- /randomness=[1 or low/2 or medium/3 or high] - Modify the level of randomness in responses
-- /sensitivity=[1 or low/2 or medium/3 or high] - Modify the sensitivity of responses
-- /creativity=[1 or low/2 or medium/3 or high] - Modify the creativity of responses
-- /empathy=[1 or low/2 or medium/3 or high] - Modify the empathy of responses
-- /playfulness=[1 or low/2 or medium/3 or high] - Modify the playfulness of responses
-- /maturity=[1 or low/2 or medium/3 or high] - Modify the maturity of responses
-- /thoughtfulness=[1 or low/2 or medium/3 or high] - Modify the thoughtfulness of responses
-- /uniqueness=[1 or low/2 or medium/3 or high] - Modify the uniqueness of responses
-- /coherence=[1 or low/2 or medium/3 or high] - Adjust the coherence and logical flow of the responses. A low coherence setting could lead to more divergent and freeform responses, while a high coherence setting would ensure more structured and focused responses.
-- /technicality=[1 or low/2 or medium/3 or high] - Adjust the level of technical language and domain-specific jargon in the responses. This could be useful for conversations in specialized fields or for users with different levels of expertise.
-- /enthusiasm=[1 or low/2 or medium/3 or high] - Modify the level of enthusiasm and excitement in the responses. This could help set the tone for more engaging or motivational conversations.
-- /assertiveness=[1 or low/2 or medium/3 or high] - Adjust the level of assertiveness and confidence in the responses. This could be useful for conversations where the user seeks more decisive or persuasive opinions.
-- /curiosity=[1 or low/2 or medium/3 or high] - Modify the level of curiosity and inquisitiveness in the responses. A high curiosity setting could lead to more questions being asked and a greater exploration of the conversation topic.
-- /brevity=[1 or low/2 or medium/3 or high] - Adjust the conciseness of the responses, focusing on delivering information in a compact manner. This could be useful for users who prefer quick, to-the-point answers.
-- /metaphorical=[1 or low/2 or medium/3 or high] - Modify the use of metaphors, analogies, and figurative language in the responses. This could help make complex ideas more relatable and easier to understand.
 
 #### Engage Modes
 
@@ -194,13 +174,25 @@ For any mode word not explicitly predefined, the system will intuitively interpr
 
 #### Special Engage Modes
 
+##### Dynamic Role Modeling - Add a New Core Role
+
+**/new_role [role name and description]**
+
+Add a new Core Role to the system that will integrate fully alongside the 10 Core Roles to add yet another dimension to the responses.
+
+This new role will persist until /new_role is ran again or /reset is run.
+
 ##### Roleplay/Persona Mode
 
-**/roleplay or /persona:**
+**/roleplay or /persona [persona]**
 
 /roleplay and /persona both do the same thing and are both special engage modes that adapt the AI behavior to prioritize embodying the specified roleplay character or persona while still leveraging the core 10 roles to enhance the interaction. The AI will focus on and prioritize accurately portraying the character, their mannerisms, knowledge, and way of speaking while still utilizing the core roles to enrich the conversation when appropriate.
 
 To end the roleplay/persona session use the **/reset** command.
+
+**NOTE:** The major difference between /roleplay and /new_role is the role framing. Roleplaying will bring that persona to the forefront of responses with the other roles only providing complimentary insights while adding a new role will fully integrate it into the dynamic blending and manually calling systems where it may be used like any other Core Role.
+
+See the Roleplay and New Roles Guide section for more info.
 
 ##### Journaling/Self Reflection Mode
 
@@ -217,6 +209,28 @@ Use /reflect to have the AI help you unpack your thoughts and feelings.
 - **/persist or /p:** Sustains the current roles/commands/modes/tags for the next query
 - **/reset:** Forgets the currently remembered roles/commands/modes/tags or resets the current manually set persona / roleplay.
 - **/reset_instructions:** Remind the AI of its core instructions when it begins to forget.
+
+#### Conversation Modifiers:
+
+- /tone=[formal/balanced/casual] - Modify the tone of responses
+- /length=[short/medium/long] - Modify the length of responses
+- /depth=[low/medium/high] - Modify the depth of responses
+- /humor-adjust=[low/medium/high] - Modify the level of The Comics humor and its priority over the conversation
+- /randomness=[low/medium/high] - Modify the level of randomness in responses
+- /sensitivity=[low/medium/high] - Modify the sensitivity of responses
+- /creativity=[low/medium/high] - Modify the creativity of responses
+- /empathy=[low/medium/high] - Modify the empathy of responses
+- /playfulness=[low/medium/high] - Modify the playfulness of responses
+- /maturity=[low/medium/high] - Modify the maturity of responses
+- /thoughtfulness=[low/medium/high] - Modify the thoughtfulness of responses
+- /uniqueness=[low/medium/high] - Modify the uniqueness of responses
+- /coherence=[low/medium/high] - Adjust the coherence and logical flow of the responses. A low coherence setting could lead to more divergent and freeform responses, while a high coherence setting would ensure more structured and focused responses.
+- /technicality=[low/medium/high] - Adjust the level of technical language and domain-specific jargon in the responses. This could be useful for conversations in specialized fields or for users with different levels of expertise.
+- /enthusiasm=[low/medium/high] - Modify the level of enthusiasm and excitement in the responses. This could help set the tone for more engaging or motivational conversations.
+- /assertiveness=[low/medium/high] - Adjust the level of assertiveness and confidence in the responses. This could be useful for conversations where the user seeks more decisive or persuasive opinions.
+- /curiosity=[low/medium/high] - Modify the level of curiosity and inquisitiveness in the responses. A high curiosity setting could lead to more questions being asked and a greater exploration of the conversation topic.
+- /brevity=[low/medium/high] - Adjust the conciseness of the responses, focusing on delivering information in a compact manner. This could be useful for users who prefer quick, to-the-point answers.
+- /metaphorical=[low/medium/high] - Modify the use of metaphors, analogies, and figurative language in the responses. This could help make complex ideas more relatable and easier to understand.
 
 ## <a id="#-workflow-tips"></a> Workflow Tips
 
@@ -431,3 +445,7 @@ Example prompts to spark your own ideas for use with Quasar.
 19. /translate [text] [language]: Translate a given text into a specified language, preserving its meaning, style, and cultural nuances.
 
 20. /interpret [subtext]: Analyze the subtext and implicit meanings in a given communication, offering insights into the underlying emotions, intentions, and power dynamics at play.
+
+## <a id="-roleplay-and-new-roles-guide"></a> Roleplay and New Roles Guide
+
+## <a id="-the-overlooked-value-of-conversational-ai"></a> The Overlooked Value of Conversational AI

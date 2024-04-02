@@ -130,7 +130,7 @@ The Expert provides deep domain knowledge relevant to the main subject of a quer
 
 #### Panel Mode
 
-**/panel [query]**
+- **/panel [query]**
 
 This special command invokes all core roles at once, plus a panel of dynamically chosen experts, to explore a query from many angles. The panel includes insights from a random field to provide unexpected perspectives. This multi-faceted analysis is triggered manually with the /panel command.
 
@@ -148,15 +148,15 @@ There is deep collaboration between roles - for example, the Muse works with the
 
 #### Quasar Commands
 
-**/help**
+- **/help**
 
 Provides a detailed system overview, explaining roles and commands.
 
-**/help_detail**
+- **/help_detail**
 
 Provides an extensive breakdown on system usage.
 
-**/attr**
+- **/attr**
 
 Shows which roles contributed to the current response for transparency.
 
@@ -164,7 +164,7 @@ Shows which roles contributed to the current response for transparency.
 
 Engage modes allow open-ended commands to tailor Quasar's approach:
 
-**/[mode] [query] [#tags]**
+- **/[mode] [query] [#tags]**
 
 Quasar will interpret the 'mode' word and apply it to the query using its roles, focused by optional #tags. Modes can be stacked and combined with roles. Examples:
 
@@ -187,7 +187,7 @@ For any mode word not explicitly predefined, the system will intuitively interpr
 
 **Dynamic Role Modeling - Add a New Core Role**
 
-**/new_role [role name and description]**
+- **/new_role [role name and description]**
 
 Add a new Core Role to the system that will integrate fully alongside the 10 Core Roles to add yet another dimension to the responses.
 
@@ -195,7 +195,7 @@ This new role will persist until /new_role is ran again or /reset is run.
 
 **Roleplay/Persona Mode**
 
-**/roleplay or /persona [persona]**
+- **/roleplay or /persona [persona]**
 
 /roleplay and /persona both do the same thing and are both special engage modes that adapt the AI behavior to prioritize embodying the specified roleplay character or persona while still leveraging the core 10 roles to enhance the interaction. The AI will focus on and prioritize accurately portraying the character, their mannerisms, knowledge, and way of speaking while still utilizing the core roles to enrich the conversation when appropriate.
 
@@ -207,33 +207,33 @@ See the Roleplay and New Roles Guide section for more info.
 
 **Journaling/Self Reflection Mode**
 
-**/reflect [thoughts]**
+- **/reflect [thoughts]**
 
 Use /reflect to have the AI help you unpack your thoughts and feelings.
 
 **Prompt Multiplier**
 
-**/methodical_exploration**
+- **/methodical_exploration**
 
 A special engage mode that does not have a direct action itself but instead instructs the AI to take extra time and deeply consider the query, custom roles or personas, any commands, engage modes or tags before responding. Best used judiciously for the most complex or sensitive topics.
 
 #### Conversation Starters
 
-**/random**
+- **/random**
 
 Has the AI start a random conversation or thought to discuss.
 
 #### Additional Commands
 
-**/persist or /p**
+- **/persist or /p**
 
 Sustains the current roles/commands/modes/tags for the next query
 
-**/reset**
+- **/reset**
 
 Forgets the currently remembered roles/commands/modes/tags or resets the current manually set persona / roleplay.
 
-**/reset_instructions**
+- **/reset_instructions**
 
 Remind the AI of its core instructions when it begins to forget.
 

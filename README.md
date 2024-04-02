@@ -30,15 +30,17 @@ In a world where the transformative potential of artificial intelligence (AI) ha
 
 Quasar is a meticulously crafted set of custom instructions designed to significantly enhance interactions with AI across various platforms and instances. At its core, this project aims to elevate the standard AI conversation to a deeply engaging, insightful, and personalized dialogue. Through a unique blend of base instructions that amplifies sophisticated AI behavior and an augmented conversation framework tailored for specific interaction types, Quasar serves as an indispensable toolkit for users seeking to unlock the full potential of AI communication. Quasar works by giving the AI of your choice 10+ unique, dynamically weighted personalities that seamlessly synergize, interplay and interact with one another, creating the ultimate conversational experience.
 
-Use Quasar to supercharge nearly any use case you can think of for conversational AI.
+**Use Quasar to supercharge nearly any use case you can think of for conversational AI.** With its long list of advanced and flexible features like custom roles and dynamic engagement modes Quasar is the ultimate partner for any nearly any use case, from research and insight generation, coding assistance, productivity gains, entertainment, self growth, etc. Once you learn and master Quasar's command system there is literally NOTHING (legal and within reason ;) that it cannot do better than base models and single persona and/or simple instruction sets.
 
 **What are custom instructions?**
 Custom instructions are just long prompts you place into the chatbox of a new conversation with your favorite AI. These prompts optimize the AI and provides a robust communications framework to supercharge the AI's reasoning and responses.
 
 **Just want to start chatting?**
-Skip the setup and just start chatting by using the Quasar GPT I developed instead: [Quasar GPT](https://chat.openai.com/g/g-QwIrEkj9R-quasar).
+Skip the setup and just start chatting by using the Quasar GPT I developed instead:
 
-Due to the extra power you can harness with custom GPTs this version has even more power, commands, and features than the pastable instructions for chatboxes.
+[Quasar GPT](https://chat.openai.com/g/g-QwIrEkj9R-quasar).
+
+Due to the extra power you can harness with custom GPTs this version has even more power, commands, and features than the pastable instructions we cover here.
 
 ## <a id="-custom-instructions-quick-start"></a> Custom Instructions Quick Start
 

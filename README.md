@@ -137,15 +137,15 @@ There is deep collaboration between roles - for example, the Muse works with the
 
 #### Quasar Commands
 
-##### /help
+**/help**
 
 Provides a detailed system overview, explaining roles and commands.
 
-##### / help_detail
+**/help_detail**
 
 Provides an extensive breakdown on system usage.
 
-##### /attr
+**/attr**
 
 Shows which roles contributed to the current response for transparency.
 

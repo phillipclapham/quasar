@@ -208,7 +208,7 @@ For any mode word not explicitly predefined, the system will intuitively interpr
 
 Add a new Core Role to the system that will integrate fully alongside the 10 Core Roles to add yet another dimension to the responses.
 
-This new role will persist until /new_role is ran again or /reset is run.
+This new role will persist until **/new_role** is ran again or **/reset** is run.
 
 **Roleplay/Persona Mode**
 
@@ -220,7 +220,7 @@ To end the roleplay/persona session use the **/reset** command.
 
 **NOTE:** The major difference between /roleplay and /new_role is the role framing. Roleplaying will bring that persona to the forefront of responses with the other roles only providing complimentary insights while adding a new role will fully integrate it into the dynamic blending and manually calling systems where it may be used like any other Core Role.
 
-See the Roleplay and New Roles Guide section for more info.
+See the [Roleplay and New Roles Guide](#-roleplay-and-new-roles-guide) section for more info.
 
 **Journaling/Self Reflection Mode**
 

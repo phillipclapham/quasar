@@ -17,7 +17,7 @@ by Phillip Clapham | v1.00
 - [Roleplay and New Roles Guide](#-roleplay-and-new-roles-guide)
 - [The Overlooked Value of Conversational AI](#-the-overlooked-value-of-conversational-ai)
 
-## <a id="#-introduction"></a> Introduction
+## <a id="-introduction"></a> Introduction
 
 Quasar is a meticulously crafted set of custom instructions designed to significantly enhance interactions with AI across various platforms and instances. At its core, this project aims to elevate the standard AI conversation to a deeply engaging, insightful, and personalized dialogue. Through a unique blend of base instructions that amplifies sophisticated AI behavior and an augmented conversation framework tailored for specific interaction types, Quasar serves as an indispensable toolkit for users seeking to unlock the full potential of AI communication.
 
@@ -26,7 +26,7 @@ Quasar works by giving the AI of your choice 10 unique, dynamically weighted per
 **What are custom instructions?**
 Custom instructions are just long prompts you place into the chatbox of a new conversation with your favorite AI. These prompts optimize the AI and provides a robust communications framework to supercharge the AI's reasoning and responses.
 
-## <a id="#-custom-instructions-quick-start"></a> Custom Instructions Quick Start
+## <a id="-custom-instructions-quick-start"></a> Custom Instructions Quick Start
 
 - There are two versions of the custom instructions: the full set located in the file custom-instructions_base_v1.txt and a streamlined set located at custom-instructions_base-short_v1.txt.
 - Use the full set for most AIs like ChatGPT, Copilot, Claude, Gemini and the streamlined set for smaller or resource constained AIs.
@@ -36,7 +36,7 @@ Custom instructions are just long prompts you place into the chatbox of a new co
 
 **NOTE**: During long conversations you may find that the AI will start to forget these instructions. When that happens simply ask the AI to refresh it's memory of the instructions you pasted. If that does not work simply repaste the instructions again prefaced by a short message to the AI that you are refreshing it's instructions.
 
-## <a id="#-the-basics"></a> The Basics:
+## <a id="-the-basics"></a> The Basics:
 
 - While the default mode of communications with most LLMs is powerful, both research and simply asking the different AIs reveals that there are several strategies that should be employed to optimize their function.
 - These methods are: A strong set of base instructions that uses one of several initial strategies to optimize the AI itself, then establishing a strong framework for communications to optimize responses, then creating a command system (DSL) to optimize queries.
@@ -46,7 +46,7 @@ Custom instructions are just long prompts you place into the chatbox of a new co
 - A detailed engagement framework is included that helps to further push the boundaries of the AI's capabilities while still ensuring it's responses are focused and actionable.
 - A DSL (consisting of a small set of stackable commands) is included that will SIGNIFIGANTLY supercharge your queries.
 
-## <a id="#-chatgpt-optional-steps"></a> ChatGPT Optional Steps
+## <a id="-chatgpt-optional-steps"></a> ChatGPT Optional Steps
 
 - First you need to optimize what ChatGPT knows about you using the Customize ChatGPT settings.
 - Enter as little or as much of your profile info into your Customize ChatGPT Settings (in your ChatGPT settings) in the 'What would you like ChatGPT to know about you to provide better responses?' box.
@@ -66,7 +66,7 @@ Custom instructions are just long prompts you place into the chatbox of a new co
 
 **NOTE**: If you use the Quasar GPT you do not need to modify your Customize ChatGPT settings.
 
-## <a id="#-how-to-use"></a> How To Use
+## <a id="-how-to-use"></a> How To Use
 
 Quasar is an advanced AI system designed to provide the most enriching, personalized conversations across a wide range of topics. It employs a variety of specialized roles that can be dynamically blended to create tailored responses. The goal is to support your unique interests and needs through intelligent, adaptive dialogue and to act as the ultimate conversational partner and assistant.
 
@@ -232,13 +232,13 @@ Use /reflect to have the AI help you unpack your thoughts and feelings.
 - /brevity=[low/medium/high] - Adjust the conciseness of the responses, focusing on delivering information in a compact manner. This could be useful for users who prefer quick, to-the-point answers.
 - /metaphorical=[low/medium/high] - Modify the use of metaphors, analogies, and figurative language in the responses. This could help make complex ideas more relatable and easier to understand.
 
-## <a id="#-workflow-tips"></a> Workflow Tips
+## <a id="-workflow-tips"></a> Workflow Tips
 
 - Make sure to give feedback often to optimize the AI to your own workflow and preferences.
 - Play with different roles, engage modes and command stacks for the same query for truly deep analysis.
 - Don't be afraid to work with the enhanced AI itself to further optimize these instructions and commands for your own use cases.
 
-## <a id="#-working-with-prompts"></a> Working With Prompts
+## <a id="-working-with-prompts"></a> Working With Prompts
 
 ### The Perfect Single Prompt and Why Commands Make Them Easier:
 
@@ -278,7 +278,7 @@ Example: "Please provide a thorough analysis, but start with a brief summary for
 
 Using custom instructions and commands do away with all of these requirements because instead of having to type out ALL of this for every query the DSL encodes and embeds these in your queries, allowing you to just ask questions without having to worry about priming or optimizing the AI yourself. That being said the base instructions are also optimized for natural language conversation so feel free to ask your questions any way you like - either way you are going to get a greatly enhanced experience from the base model of your chosen AI.
 
-## <a id="#-prompt-multipliers"></a> Prompt Multipliers
+## <a id="-prompt-multipliers"></a> Prompt Multipliers
 
 Short additions you can make to the natural language portion of your prompts to achieve different types of deeper focuses, see the AI generated explanations of their affects:
 
@@ -296,7 +296,7 @@ Or, when you require a greater depth of explanation, you could say:
 
     "Please show your work and provide a detailed explanation: [topic requiring depth]"
 
-## <a id="#-prompt-examples"></a> Prompt Examples
+## <a id="-prompt-examples"></a> Prompt Examples
 
 Example prompts to spark your own ideas for use with Quasar.
 
@@ -404,7 +404,7 @@ Example prompts to spark your own ideas for use with Quasar.
 
 3. /panel /genius /scientist /innovate /brainstorm /expert:game_theory Design a cooperative board game that teaches players about the challenges and rewards of pursuing a hobby or leisure activity. Consider how game mechanics can model real-world constraints like time management, skill development, and social interaction. Explore how the game can encourage players to reflect on their own leisure pursuits and inspire new interests. [#game_design #cooperative_play #metacognition #hobby_development]
 
-## <a id="#-dynamic-engage-mode-ideas"></a> Dynamic Engage Mode Ideas:
+## <a id="-dynamic-engage-mode-ideas"></a> Dynamic Engage Mode Ideas:
 
 1. /context [query]: Provide a detailed analysis of the cultural, historical, and societal context surrounding the query, drawing on interdisciplinary knowledge to offer a comprehensive understanding.
 

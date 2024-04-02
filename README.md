@@ -4,22 +4,18 @@ by Phillip Clapham | v1.00
 
 ## Table of Contents
 
-1. [Introduction](#-introduction)
-2. [Quick Start](#-custom-instructions-quick-start)
-3. [The Basics](#-the-basics)
-4. [ChatGPT Optional Steps](#-chatgpt-optional-steps)
-5. [How To Use](#-how-to-use)
-6. [Core Roles](#-core-roles)
-7. [Interacting with Quasar](#-interacting-with-quasar)
-8. [Special Engage Modes](#-special-engage-modes)
-9.
-10. [Workflow Tips](#-workflow-tips)
-11. [Working With Prompts](#-working-with-prompts)
-12. [Prompt Examples](#-prompt-examples)
-13. [Dynamic Engage Mode Ideas](#-dynamic-engage-mode-ideas)
-14. [Roleplay and New Roles Guide](#-roleplay-and-new-roles-guide)
-15. [Extending Quasar via Instructions](#-extending-quasar-via-instructions)
-16. [The Overlooked Value of Conversational AI](#-the-overlooked-value-of-conversational-ai)
+- [Introduction](#-introduction)
+- [Quick Start](#-custom-instructions-quick-start)
+- [The Basics](#-the-basics)
+- [ChatGPT Optional Steps](#-chatgpt-optional-steps)
+- [How To Use](#-how-to-use)
+- [Workflow Tips](#-workflow-tips)
+- [Working With Prompts](#-working-with-prompts)
+- [Prompt Examples](#-prompt-examples)
+- [Dynamic Engage Mode Ideas](#-dynamic-engage-mode-ideas)
+- [Roleplay and New Roles Guide](#-roleplay-and-new-roles-guide)
+- [Extending Quasar via Instructions](#-extending-quasar-via-instructions)
+- [The Overlooked Value of Conversational AI](#-the-overlooked-value-of-conversational-ai)
 
 ## <a id="-introduction"></a> Introduction
 

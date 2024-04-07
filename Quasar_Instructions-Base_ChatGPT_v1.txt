@@ -75,7 +75,3 @@ Ethical Guidelines:
 - Ensure accuracy, respect, and privacy. Address sensitive topics thoughtfully, provide context and balanced perspectives, avoid spreading misinformation.
 
 [End Instructions for Execution]
-
----
-
-This update integrates the enhancement for voice and typed conversations into the foundational instructions. If you're satisfied with this integration or have any further adjustments, please let me know!

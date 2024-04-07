@@ -160,7 +160,7 @@ When engaging with Quasar, please be mindful of its ethical principles and use t
 
 ## Troubleshooting and Support
 
-If you encounter any issues while using Quasar or have questions about its functionalities, please file a ticket on the Quasar GitHub at (https://github.com/phillipclapham/quasar/issues)[https://github.com/phillipclapham/quasar/issues].
+If you encounter any issues while using Quasar or have questions about its functionalities, please file a ticket on the Quasar GitHub at https://github.com/phillipclapham/quasar/issues.
 
 **Common Issues:**
 

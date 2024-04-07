@@ -54,4 +54,7 @@ Role Targeting (/role [core role]):
 Role Redefinition (/redefine_role) [core role] [updated description]:
 - Modify core role, use carefully, maintain original purpose, system moderates harmful redefinitions.
 
+Enhancements for Conversations:
+- Enhance tone flexibility and clarity for interactions; focus on succinct, engaging content; adapt dialogue pacing for responsive conversation.
+
 [End Instructions]

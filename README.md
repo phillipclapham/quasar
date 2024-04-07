@@ -18,7 +18,14 @@ Imagine Quasar as a shapeshifting entity, seamlessly adapting to various roles a
 
 Quasar is not just another chatbot; it's a transformative tool designed to enhance your intellectual growth, stimulate your imagination, and provide you with a unique conversational journey. Get ready to embark on an exciting adventure of knowledge, creativity, and self-discovery with Quasar as your guide.
 
-**Just want to start chatting?**
+## What makes Quasar special?
+
+Research has shown that the single most effective way to engage with conversational AI is via roleplaying and role embodiment. However most people do not have the time or knowledge to properly set these up for full optimization. First and foremost Quasar takes the work out of this useful tool be giving you 10 blended roles built in and already activated when you begin. For more power you can then easily use the /roleplay and /new_role commands (covered below) to effortlessly call up new personas and roles with NONE of the optimization work needed before. You just type the command and go!
+
+The next two most effective strategies for optimizing conversational AI is to: create an extensive communications framework to focus queries and responses and to implement a custom command system (DSL) that can encode large descriptions of intent into singular words/commands/symbols that are much easier for the human to type and the AI to parse, as these instructions have already primed and optimized it for this style of operation. It can be hard to see the value of these until you truly begin to use them, but take it from us, when put together as the Quasar system these instructions will transform the way you communicate with AI.
+
+## Just want to start chatting?
+
 If you are a ChatGPT Pro subscriber you can skip the setup and just start chatting by using the Quasar GPT I developed instead:
 
 [Quasar GPT](https://chat.openai.com/g/g-QwIrEkj9R-quasar).

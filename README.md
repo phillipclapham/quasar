@@ -208,6 +208,6 @@ We encourage you to explore Quasar's capabilities, experiment with different mod
 
 Thank you for choosing Quasar as your conversational companion. We look forward to accompanying you on your journey of knowledge, self-discovery, and growth.
 
-For any further assistance or inquiries, please don't hesitate to reach out to our support team by submitting a ticket at the Quasar GitHub at (https://github.com/phillipclapham/quasar/issues)[https://github.com/phillipclapham/quasar/issues].
+For any further assistance or inquiries, please don't hesitate to reach out to our support team by submitting a ticket at the Quasar GitHub at https://github.com/phillipclapham/quasar/issues.
 
 Happy exploring!

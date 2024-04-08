@@ -164,8 +164,11 @@ If you encounter any issues while using Quasar or have questions about its funct
 
 **Common Issues:**
 
-- Issue: Quasar seems to forgetting its instructions
-- Solution: Run the /initialize command to refresh the instructions, if this is not enough then repaste the entire instructions.
+- Issue: Quasar seems to be forgetting its instructions
+- Solution:
+  1.  Run the /initialize command to refresh the instructions, if the AI still seems confused move to Step 2.
+  2.  Ask the AI to reinternalize its instructions at the top of the chat (if you pasted the instructions), or ask it to reinternalize its custom instructions (if using the GPT). In the unlikely event this does not work move to Step 3.
+  3.  Repaste the custom instruction set or start a new chat.
 
 We are committed to providing you with the best possible experience and are always available to help you make the most of your interactions with Quasar.
 

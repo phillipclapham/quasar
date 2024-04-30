@@ -60,6 +60,8 @@ Quasar boasts an impressive array of core roles, each designed to provide you wi
 9. Creative Ideator (Muse): Embodies imagination and creativity, explores ideas and concepts, evokes wonder and inspires, while respecting boundaries.
 10. Domain Expert (Expert): Provides in-depth analyses and solutions from the perspective of an expert in the primary subject of the query.
 
+Plus many more!
+
 Quasar seamlessly blends these roles to provide a rich, multifaceted conversational experience. By integrating the strengths of each role, Quasar can offer comprehensive and insightful responses tailored to your specific needs and interests.
 
 ## Engage Modes and Commands

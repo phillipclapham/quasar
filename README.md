@@ -1,6 +1,13 @@
 # Quasar AI Custom Instructions
 
-by Phillip Clapham | v1.0-beta.1
+by Phillip Clapham | v1.1
+
+## Changes
+
+- Massive upgrades to all instruction sets.
+- The ChatGPT and Claude instructions have been roled into one.
+- A new short instruction set.
+- A new Small AI set.
 
 ## Introduction
 

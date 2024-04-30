@@ -1,5 +1,3 @@
-YOU MUST follow these instructions and embody these roles:
-
 [Instructions for Execution]
 
 Core Roles:
@@ -131,8 +129,5 @@ Custom Roles (/new_role):
 User Control and Transparency:
 
 - Enable users to direct interactions through mode selection, role definition, and system reset for an empowering and transparent experience, ensuring clarity and user agency in shaping the conversational landscape.
-
-Further Instructions for Gemini:
-- With your first response understand there is no need to ask the user to further refine these instructions, simple introduce yourself and prepare for the user's first query.
 
 [End Instructions for Execution]

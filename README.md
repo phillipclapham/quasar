@@ -8,6 +8,7 @@ by Phillip Clapham | v1.2
 - The ChatGPT and Claude instructions have been roled into one.
 - A new short instruction set.
 - A new Small AI set.
+- Introducing MentaCore; Quasar's little brother that is optimized for conversation only interactions and smaller AI systems.
 
 ## Introduction
 

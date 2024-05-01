@@ -1,6 +1,6 @@
 # Quasar AI Custom Instructions
 
-by Phillip Clapham | v1.1
+by Phillip Clapham | v1.2
 
 ## Changes
 

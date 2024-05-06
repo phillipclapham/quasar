@@ -4,11 +4,7 @@ by Phillip Clapham | v1.3
 
 ## Changes
 
-- Massive upgrades to all instruction sets.
-- The ChatGPT and Claude instructions have been roled into one.
-- A new short instruction set.
-- A new Small AI set.
-- Introducing MentaCore; Quasar's little brother that is optimized for conversation only interactions and smaller AI systems.
+- Quasar is no longer under active development. Please check back soon for links to my new projects Neuroweaver and Nexus Fusion.
 
 ## Introduction
 
